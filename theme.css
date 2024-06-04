@@ -1,0 +1,125 @@
+:root {
+  --com-c-theme-version: 1;
+}
+
+b2c_lite_commerce-external-layout b2c_lite_commerce-store-logo-cms img {
+  padding-top: var(--dxp-g-spacing-xlarge);
+  padding-bottom: var(--dxp-g-spacing-xlarge);
+}
+
+b2b_buyer_product_details-expandable-text-section {
+  --sds-c-accordion-section-spacing-inline-start: 0;
+}
+
+b2c_lite_commerce-my-account-profile,
+b2c_lite_commerce-my-account-password {
+  --dxp-g-spacing-medium: 0;
+}
+
+b2c_lite_commerce-my-account-profile,
+b2c_lite_commerce-my-account-password,
+commerce-my-account-profile,
+commerce-my-account-password {
+  --sds-c-card-header-spacing-block-start: 1rem;
+  --sds-c-card-header-spacing-inline-end: 1rem;
+  --sds-c-card-header-spacing-inline-start: 1rem;
+  --sds-c-card-body-spacing-inline-start: 1rem;
+  --sds-c-card-body-spacing-inline-end: 1rem;
+  --sds-c-card-body-spacing-block-end: 1rem;
+  --sds-c-card-radius-border: 0;
+}
+b2c_lite_commerce-my-account-profile label,
+b2c_lite_commerce-my-account-password label,
+commerce-my-account-profile label,
+commerce-my-account-password label {
+  --dxp-s-form-element-label-font-size: var(--dxp-g-font-size-4);
+  font-weight: var(--dxp-c-strong-text-weight);
+}
+
+b2c_lite_commerce-my-account-password header,
+commerce-my-account-password header {
+  font-size: var(--dxp-g-font-size-4);
+}
+
+@media (min-width: 64.0625em) {
+  b2c_lite_commerce-my-account-profile,
+  b2c_lite_commerce-my-account-password,
+  commerce-my-account-profile,
+  commerce-my-account-password {
+    --sds-c-card-header-spacing-block-start: 2rem;
+    --sds-c-card-header-spacing-inline-end: 2rem;
+    --sds-c-card-header-spacing-inline-start: 2rem;
+    --sds-c-card-body-spacing-block: 1rem;
+    --sds-c-card-body-spacing-inline-start: 2rem;
+    --sds-c-card-body-spacing-inline-end: 2rem;
+    --sds-c-card-body-spacing-block-end: 2rem;
+  }
+}
+b2c_lite_commerce-scoped-notification .slds-scoped-notification,
+commerce-scoped-notification .slds-scoped-notification {
+  margin-bottom: 1rem;
+}
+
+b2c_lite_commerce-my-account-menu-ui .slds-dropdown__header {
+  font-size: var(--dxp-g-font-size-6);
+}
+b2c_lite_commerce-my-account-menu-ui lightning-menu-subheader {
+  border-bottom: 1px solid var(--dxp-g-root-1);
+}
+
+commerce_builder-link-list.utility-header,  commerce_builder-link-list.utility-header commerce-link-list,  commerce_builder-link-list.utility-header commerce-link-list ul{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  width: 100%;
+}
+    commerce_builder-link-list.utility-header{
+  padding: 12px 80px;
+        background-color: #FFFFFF;
+}
+    commerce_builder-link-list.utility-header commerce-link-list ul li{
+  display: flex;
+  flex-direction: row;
+}
+commerce_builder-link-list.utility-header div[slot='header']{
+  display:none;
+}
+    commerce_builder-link-list.utility-header commerce-link-list ul li:last-child {
+  margin-left: auto;
+}
+    commerce_builder-link-list.utility-header commerce-link-list ul li:not(:first-child):not(:last-child)::before {
+  content: "|";
+  padding-left: 16px;
+  padding-right: 16px;
+}
+commerce_builder-link-list.utility-header commerce-link-list ul li p{
+  font-size: 14px !important;
+  font-family: 'Aktiv Grotesk', sans-serif !important;
+}
+
+    div[name='header'] webruntimedesign-component-wrapper.component-wrapper-spacer{
+        margin-bottom:0;
+    }
+    div[name='header'] commerce_builder-layout-header {
+        padding-left: 0;
+        padding-right:  0;
+    }
+    div[name='header'] commerce-layout-header header.desktop div.header-content{
+        max-width: none !important;
+    }
+    div[name='header'] commerce-layout-header div.layout-header-desktop{
+        padding-left: 80px;
+        padding-right: 80px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    div[name='header'] commerce-layout-header header[ref='header'].desktop{
+        padding-left:0;
+        padding-right:0;
+    }
+    div[name='header'] commerce_builder-drilldown-navigation.header-nav nav{
+      /* Drilldown navigations have about 12px of internal padding. */
+        padding-left: 68px;
+        padding-right: 80px;
+        background-color: #FFFFFF;
+    }
