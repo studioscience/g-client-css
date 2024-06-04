@@ -1,5 +1,5 @@
 # g-client-css
-TEMPORARY repository to facilitate the buildout of the ATS B2B Project.
+TEMPORARY repository to facilitate the buildout of the G-Client Project.
 
 This repository houses a stylesheet file. Once edited, the stylesheet is published to a public link. This link can then be inclueded in the head section of an experience cloud site.
 
