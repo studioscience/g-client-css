@@ -13,7 +13,7 @@ In the HEAD of the experience cloud, incude this line
 ```
 
 ## Content Security Policy
-CSP will need to ALLOW list the published URL.
+CSP will need to ALLOW list the published URL. Must be done in the Trusted URL section of setup, using the style-src.
 
 ## Temporary Solution
 Once development is complete, and the stylesheet is stable, it will be included in the Salesforce Experience Builder site either as a static resource or directly into the HEAD of the site.
