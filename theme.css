@@ -153,6 +153,9 @@ commerce_builder-link-list.utility-header div[slot='header']{
         padding-left: 8px;
         padding-right: 8px;
     }
+    div[name='header'] commerce_builder-drilldown-navigation.header-nav ul li commerce-drilldown-navigation-list ul {
+        left: 0;
+    }
     div[name='header'] commerce_builder-drilldown-navigation.header-nav ul li:last-child {
       /* Redeem Code button*/
       position:absolute;
