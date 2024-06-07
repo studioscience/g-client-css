@@ -144,4 +144,13 @@ commerce_builder-link-list.utility-header div[slot='header']{
     div[name='header'] commerce_builder-drilldown-navigation.header-nav ul li commerce-drilldown-navigation-list ul li:first-child {
       display:none;
     } 
+    div[name='header'] commerce_builder-drilldown-navigation.header-nav ul li commerce-drilldown-navigation-list ul li a {
+        font-size: 14px;
+        line-height: 1.7;
+        font-family: "Aktiv Grotesk", sans-serif;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
 
