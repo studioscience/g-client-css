@@ -215,7 +215,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       top: 16px;
       align-items: center;
       height: 40px;
-      position: absolute;
+      position: absolute !important;
     }
 
 
