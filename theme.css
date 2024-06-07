@@ -131,4 +131,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     div[name='header'] div.header-badget-icons {
         padding-right: 0;
     }
+    div[name='header'] commerce_builder-drilldown-navigation.header-nav lightning-icon.slds-icon-utility-chevrondown svg{
+        color: #009D4F;
+    }
 
