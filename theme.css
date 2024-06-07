@@ -74,8 +74,9 @@ commerce_builder-link-list.utility-header,  commerce_builder-link-list.utility-h
   width: 100%;
 }
     commerce_builder-link-list.utility-header{
-  padding: 12px 80px;
-        background-color: #FFFFFF;
+      padding: 12px 80px;
+      background-color: #FFFFFF;
+      margin-bottom:0;
 }
     commerce_builder-link-list.utility-header commerce-link-list ul li{
   display: flex;
