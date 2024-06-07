@@ -179,4 +179,21 @@ commerce_builder-link-list.utility-header div[slot='header']{
         padding-right: 16px;
         border: solid 1px #009D4F;
     }
+    div[name='header'] commerce_search-input div.input-container{
+      height:40px;
+    }
+
+    div[name='header'] commerce_search-input div.input-wrapper{
+      height: 40px;
+      border: solid 1px #E0E0E0;
+      padding: 8px 16px;
+    }
+
+    div[name='header'] commerce_search-input button.input-search-button{
+      background: unset;
+      border: unset;
+      position: absolute;
+      right: 0;
+      top: 4px;
+    }
 
