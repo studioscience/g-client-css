@@ -126,10 +126,9 @@ commerce_builder-link-list.utility-header div[slot='header']{
         padding-left: 68px;
         padding-right: 80px;
         background-color: #FFFFFF;
+        border-bottom: solid 1px #E0E0E0;
     }
     div[name='header'] div.header-badget-icons {
         padding-right: 0;
     }
-    div[name='header'] commerce_builder-drilldown-navigation.header-nav {
-      border-bottom: solid 1px #E0E0E0;
-    }
+
