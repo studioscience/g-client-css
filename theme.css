@@ -141,4 +141,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
         padding-top: 20px;
         padding-bottom: 20px;
     }
+    div[name='header'] commerce_builder-drilldown-navigation.header-nav ul li commerce-drilldown-navigation-list ul li:first-child {
+      display:none;
+    }
 
