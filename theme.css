@@ -134,4 +134,11 @@ commerce_builder-link-list.utility-header div[slot='header']{
     div[name='header'] commerce_builder-drilldown-navigation.header-nav lightning-icon.slds-icon-utility-chevrondown svg{
         color: #009D4F;
     }
+    div[name='header'] commerce_builder-drilldown-navigation.header-nav li.slds-list__item a{
+        font-size: 16px;
+        line-height: 1.7;
+        font-family: "Aktiv Grotesk", sans-serif;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 
