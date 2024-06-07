@@ -162,6 +162,11 @@ commerce_builder-link-list.utility-header div[slot='header']{
       right: 80px;
       padding-top: 14px;
     }
+    div[name='header'] commerce_builder-drilldown-navigation.header-nav ul li[title="My Orders"] {
+      /* Redeem Code button*/
+      position:absolute;
+      right: 227px;
+    }
     div[name='header'] commerce_builder-drilldown-navigation.header-nav ul li:last-child  a {
         font-size: 11px;
         line-height: 1.7;
