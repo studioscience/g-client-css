@@ -181,6 +181,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     }
     div[name='header'] commerce_search-input div.input-container{
       height:40px;
+      position: relative;
     }
 
     div[name='header'] commerce_search-input div.input-wrapper{
