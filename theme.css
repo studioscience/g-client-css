@@ -179,6 +179,12 @@ commerce_builder-link-list.utility-header div[slot='header']{
         padding-right: 16px;
         border: solid 1px #009D4F;
     }
+
+    div[name='header'] div.header-content div.header-logo.slds-size_2-of-12{
+      width:180px;
+      margin-right: 32px;
+    }
+    
     div[name='header'] commerce_search-input div.input-container{
       height:40px;
       position: relative;
@@ -197,4 +203,5 @@ commerce_builder-link-list.utility-header div[slot='header']{
       right: 0;
       top: 4px;
     }
+
 
