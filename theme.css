@@ -92,10 +92,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
   padding-left: 16px;
   padding-right: 16px;
 }
-commerce_builder-link-list.utility-header commerce-link-list ul li p{
-  font-size: 14px !important;
-  font-family: 'Aktiv Grotesk', sans-serif !important;
-}
+    commerce_builder-link-list.utility-header commerce-link-list ul li p{
+        font-size: 14px !important;
+        font-family: 'Aktiv Grotesk', sans-serif !important;
+    }
 
     div[name='header'] webruntimedesign-component-wrapper.component-wrapper-spacer{
         margin-bottom:0;
@@ -118,8 +118,10 @@ commerce_builder-link-list.utility-header commerce-link-list ul li p{
         padding-right:0;
     }
     div[name='header'] commerce_builder-drilldown-navigation.header-nav nav{
-      /* Drilldown navigations have about 12px of internal padding. */
         padding-left: 68px;
         padding-right: 80px;
         background-color: #FFFFFF;
+    }
+    div[name='header'] div.header-badget-icons {
+        padding-right: 0;
     }
