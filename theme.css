@@ -184,7 +184,11 @@ commerce_builder-link-list.utility-header div[slot='header']{
       width:180px;
       margin-right: 32px;
     }
-    
+
+    div[name='header'] div.header-content div.header-navigation{
+      padding-left:0;
+    }
+
     div[name='header'] commerce_search-input div.input-container{
       height:40px;
       position: relative;
