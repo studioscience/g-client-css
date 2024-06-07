@@ -97,7 +97,8 @@ commerce_builder-link-list.utility-header div[slot='header']{
         font-family: 'Aktiv Grotesk', sans-serif !important;
     }
 
-    div[name='header'] webruntimedesign-component-wrapper.component-wrapper-spacer{
+    div[name='header'] webruntimedesign-component-wrapper.component-wrapper-spacer,
+    div[name='header'] dxp_base-horizontal-line.component-wrapper-spacer{
         margin-bottom:0;
     }
     div[name='header'] commerce_builder-layout-header {
