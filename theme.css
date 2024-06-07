@@ -104,7 +104,8 @@ commerce_builder-link-list.utility-header div[slot='header']{
     }
     div[name='header'] commerce_builder-layout-header {
         padding-left: 0;
-        padding-right:  0;
+        padding-right: 0;
+        margin-bottom: 0;
     }
     div[name='header'] commerce-layout-header header.desktop div.header-content{
         max-width: none !important;
