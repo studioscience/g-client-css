@@ -153,4 +153,20 @@ commerce_builder-link-list.utility-header div[slot='header']{
         padding-left: 8px;
         padding-right: 8px;
     }
+    div[name='header'] commerce_builder-drilldown-navigation.header-nav ul li:last-child {
+      /* Redeem Code button*/
+      position:absolute;
+      right: 80px;
+    }
+    div[name='header'] commerce_builder-drilldown-navigation.header-nav ul li:last-child  a {
+        font-size: 11px;
+        line-height: 1.7;
+        font-family: "Aktiv Grotesk", sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
 
