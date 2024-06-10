@@ -275,3 +275,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     footer div.footer commerce_builder-link-list.legal-links commerce-link-list ul li:not(:first-child):not(:last-child)::before {
       content: ' | ';
     }
+
+    footer div.footer commerce_builder-link-list.legal-links commerce-link-list ul li p {
+      display: inline;
+    }
