@@ -251,3 +251,11 @@ commerce_builder-link-list.utility-header div[slot='header']{
       width: 20px;
     }
 
+    div[name='header'] commerce_builder-cart-badge span.cart-container, div[name='header'] commerce_builder-wishlist-shortcut div.wishlist-shortcut-wrapper {
+      line-height: 20px;
+      padding:0;
+    }
+
+    div[name='header'] div.header-account, div[name='header'] div.header-wishlist{
+      margin-right: 24px;
+    }
