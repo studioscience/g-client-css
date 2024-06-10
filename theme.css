@@ -244,7 +244,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       width: fit-content;
     }
 
-    div[name='header'] commerce_my_account-user-profile-menu lightning-icon lightning-primitive-icon svg{
+    div[name='header'] commerce_my_account-user-profile-menu lightning-icon lightning-primitive-icon svg, div[name='header'] commerce_cart-badge lightning-icon lightning-primitive-icon svg{
       color:black;
       fill: black;
       height: 20px;
