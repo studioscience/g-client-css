@@ -139,7 +139,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     div[name='header'] commerce_builder-drilldown-navigation.header-nav ul li a, div[name='header'] commerce_builder-drilldown-navigation.header-nav ul li button{
         font-size: 16px;
         line-height: 1.7;
-        font-family: "Aktiv Grotesk", sans-serif;
+        font-family: 'aktiv-grotesk', sans-serif;
         padding-top: 20px;
         padding-bottom: 20px;
     }
@@ -149,7 +149,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     div[name='header'] commerce_builder-drilldown-navigation.header-nav ul li commerce-drilldown-navigation-list ul li a {
         font-size: 14px;
         line-height: 1.7;
-        font-family: "Aktiv Grotesk", sans-serif;
+        font-family: 'aktiv-grotesk', sans-serif;
         padding-top: 16px;
         padding-bottom: 16px;
         padding-left: 8px;
@@ -172,7 +172,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     div[name='header'] commerce_builder-drilldown-navigation.header-nav ul li:last-child  a {
         font-size: 11px;
         line-height: 1.7;
-        font-family: "Aktiv Grotesk", sans-serif;
+        font-family: 'aktiv-grotesk', sans-serif;
         font-weight: 500;
         text-transform: uppercase;
         padding-top: 8px;
