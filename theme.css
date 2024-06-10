@@ -209,6 +209,12 @@ commerce_builder-link-list.utility-header div[slot='header']{
       position: absolute;
       right: 0;
       top: 4px;
+      padding-left: 0;
+    }
+
+    div[name='header'] commerce_search-input div.input-clear-button-container{
+      margin-right: 16px;
+      margin-top: -1px;
     }
 
     div[name='header'] div.header-badge-icons{
@@ -258,4 +264,14 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
     div[name='header'] div.header-account, div[name='header'] div.header-wishlist{
       margin-right: 24px;
+    }
+
+    footer div.footer commerce_builder-link-list.legal-links commerce-link-list ul{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    footer div.footer commerce_builder-link-list.legal-links commerce-link-list ul li:not(:first-child):not(:last-child)::before {
+      content: ' | ';
     }
