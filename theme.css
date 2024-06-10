@@ -229,10 +229,19 @@ commerce_builder-link-list.utility-header div[slot='header']{
       display:none;
     }
 
+    div[name='header'] commerce_my_account-user-profile-menu div.menu-trigger{
+      max-width: 150px !important;
+      width: fit-content;
+    }
+
     div[name='header'] commerce_my_account-user-profile-menu p.menu-trigger-p{
       font-family: 'Aktiv Grotesk', sans-serif !important;
       font-size: 16px;
-      color:black;
+      color:black !important;
+      font-weight: 400;
+      text-transform: capitalize;
+      max-width: 150px;
+      width: fit-content;
     }
 
     div[name='header'] commerce_my_account-user-profile-menu lightning-icon lightning-primitive-icon svg{
