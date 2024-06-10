@@ -238,5 +238,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     div[name='header'] commerce_my_account-user-profile-menu lightning-icon lightning-primitive-icon svg{
       color:black;
       fill: black;
+      height: 20px;
+      width: 20px;
     }
 
