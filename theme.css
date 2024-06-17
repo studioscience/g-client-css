@@ -276,6 +276,13 @@ commerce_builder-link-list.utility-header div[slot='header']{
       }
     }
 
+    footer div.footer commerce_builder-link-list.legal-links dxp_base-text-block.copyright-text h3 {
+      font-family: 'aktiv-grotesk', sans-serif !important;
+      color: #1A1A1A;
+      font-size: 14px;
+      line-height: 1.2;
+    }
+
     footer div.footer commerce_builder-link-list.legal-links commerce-link-list ul{
       display: flex;
       flex-direction: row;
