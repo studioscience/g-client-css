@@ -269,10 +269,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
     @media screen and (max-width: 767px){
       div.header-logo dxp_content_layout-site-logo {
-        z-index: 200;
-        position: absolute;
-        --logo-margin: 0;
-        margin-left: var(--logo-margin);
         margin-top: -6px;
       }
       div.header-logo dxp_content_layout-site-logo div.dxp-content-layout-site-logo{
