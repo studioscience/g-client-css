@@ -169,7 +169,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       position:absolute;
       right: 227px;
     }
-    div[name='header'] commerce_builder-drilldown-navigation.header-nav ul li:last-child  a {
+    div[name='header'] commerce_builder-drilldown-navigation.header-nav ul:not([data-menulist]) li:last-child  a {
         font-size: 11px;
         line-height: 1.7;
         font-family: 'aktiv-grotesk', sans-serif;
@@ -294,6 +294,11 @@ commerce_builder-link-list.utility-header div[slot='header']{
         align-items: center;
         height: 40px !important;
         position: absolute !important;
+      }
+
+      commerce-drilldown-navigation-list lightning-button-icon.close-button svg { 
+        height: 20px;
+        width: 20px;
       }
     }
     footer div.footer commerce_builder-link-list dxp_base-text-block.footer-links-header h3, footer div.footer dxp_base-text-block.footer-links-header h4{
