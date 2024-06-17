@@ -267,16 +267,19 @@ commerce_builder-link-list.utility-header div[slot='header']{
     }
 
     @media screen and (max-width: 767px){
+      div.header-logo dxp_content_layout-site-logo {
+        z-index: 200;
+        position: absolute;
+        --logo-margin: 0;
+        margin-left: var(--logo-margin);
+      }
       div[name='header'] commerce-drilldown-navigation-list {
         position: absolute;
         left: 0;
         right: 0;
         top: 0;
         z-index: 99;
-        --logo-margin: -20px;
-      }
-      div.header-logo dxp_content_layout-site-logo {
-        z-index: 200;
+        --logo-margin: -40px;
       }
     }
     footer div.footer commerce_builder-link-list dxp_base-text-block.footer-links-header h3, footer div.footer dxp_base-text-block.footer-links-header h4{
