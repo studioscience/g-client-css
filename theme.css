@@ -273,6 +273,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
         right: 0;
         top: 0;
         z-index: 99;
+        --logo-margin: -20px;
+      }
+      div[name='header'] dxp-content-layout-site-logo {
+        z-index: 200;
       }
     }
     footer div.footer commerce_builder-link-list dxp_base-text-block.footer-links-header h3, footer div.footer dxp_base-text-block.footer-links-header h4{
