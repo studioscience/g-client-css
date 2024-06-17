@@ -320,3 +320,12 @@ commerce_builder-link-list.utility-header div[slot='header']{
       line-height: 1.2;
       margin-bottom: 16px;
     }
+
+    footer div.footer commerce_builder-social-links {
+      margin-top: -33px;
+    }
+
+    footer div.footer commerce_builder-social-links svg.social-icon{
+      height: 16px;
+      width: 16px;
+    }
