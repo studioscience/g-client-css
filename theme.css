@@ -272,6 +272,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
         position: absolute;
         --logo-margin: 0;
         margin-left: var(--logo-margin);
+        margin-top: -6px;
       }
       div[name='header'] commerce-drilldown-navigation-list {
         position: absolute;
