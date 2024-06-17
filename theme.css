@@ -283,6 +283,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       letter-spacing: 1.5px;
       line-height: normal;
       text-transform: uppercase;
+      margin-bottom: 16px;
     }
 
     footer div.footer commerce_builder-link-list.legal-links dxp_base-text-block.copyright-text h3 {
