@@ -158,7 +158,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     div[name='header'] commerce_builder-drilldown-navigation.header-nav ul li commerce-drilldown-navigation-list ul {
         left: 0;
     }
-    div[name='header'] commerce_builder-drilldown-navigation.header-nav ul:not([data-menulist=""]) li:last-child {
+    div[name='header'] commerce_builder-drilldown-navigation.header-nav ul li:last-child:has(a[title="Redeem Code"]) {
       /* Redeem Code button*/
       position:absolute;
       right: 80px;
@@ -169,7 +169,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       position:absolute;
       right: 227px;
     }
-    div[name='header'] commerce_builder-drilldown-navigation.header-nav ul:not([data-menulist=""]) li:last-child  a {
+    div[name='header'] commerce_builder-drilldown-navigation.header-nav ul li:last-child  a[title="Redeem Code"] {
         font-size: 11px;
         line-height: 1.7;
         font-family: 'aktiv-grotesk', sans-serif;
