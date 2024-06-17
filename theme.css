@@ -266,6 +266,16 @@ commerce_builder-link-list.utility-header div[slot='header']{
       margin-right: 24px;
     }
 
+    @media screen and (max-width: 767px){
+      div[name='header'] commerce-drilldown-navigation-list {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 99;
+      }
+    }
+
     footer div.footer commerce_builder-link-list.legal-links commerce-link-list ul{
       display: flex;
       flex-direction: row;
@@ -273,7 +283,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
     }
 
     footer div.footer commerce_builder-link-list.legal-links commerce-link-list ul li:not(:first-child):not(:last-child)::before {
-      content: ' | ';
+      content: '|';
+      margin-left: 5px;
+      margin-right: 5px;
+      color: #666666;
     }
 
     footer div.footer commerce_builder-link-list.legal-links commerce-link-list ul li p {
