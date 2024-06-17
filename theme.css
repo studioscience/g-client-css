@@ -327,9 +327,17 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
     footer div.footer commerce_builder-social-links {
       margin-top: -33px;
+      margin-bottom: 32px;
     }
 
     footer div.footer commerce_builder-social-links svg.social-icon{
       height: 16px;
       width: 16px;
+    }
+
+    commerce_builder-layout-footer.commerce-footer {
+      padding-top: 48px;
+      padding-bottom: 24px;
+      border-top: solid 4px #009D4F;
+      background-color: #FFFFFF;
     }
