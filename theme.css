@@ -310,6 +310,8 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
     footer div.footer commerce_builder-link-list.legal-links commerce-link-list ul li p {
       display: inline;
+      font-size: 14px;
+      line-height: 1.2;
     }
 
     footer div.footer commerce_builder-link-list commerce-link-list ul li h3, footer div.footer commerce_builder-link-list.help-links commerce-link-list ul li p {
