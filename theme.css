@@ -312,7 +312,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       display: inline;
     }
 
-    footer div.footer commerce_builder-link-list commerce-link-list ul li h3 {
+    footer div.footer commerce_builder-link-list commerce-link-list ul li h3, footer div.footer commerce_builder-link-list commerce-link-list.help-links ul li p {
       font-family: 'aktiv-grotesk', sans-serif !important;
       color: #1A1A1A !important;
       font-size: 14px !important;
