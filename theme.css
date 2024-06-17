@@ -281,7 +281,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       font-size: 12px;
       font-weight: 500;
       letter-spacing: 1.5px;
-      line-height: normal;
+      line-height: 1.28;
       text-transform: uppercase;
       margin-bottom: 16px;
     }
@@ -310,4 +310,13 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
     footer div.footer commerce_builder-link-list.legal-links commerce-link-list ul li p {
       display: inline;
+    }
+
+    footer div.footer commerce_builder-link-list commerce-link-list ul li h3 {
+      font-family: 'aktiv-grotesk', sans-serif !important;
+      color: #1A1A1A;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 1.2;
+      margin-bottom: 16px;
     }
