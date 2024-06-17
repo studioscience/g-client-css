@@ -275,7 +275,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
         z-index: 99;
         --logo-margin: -20px;
       }
-      div[name='header'] dxp-content-layout-site-logo {
+      div.header-logo dxp_content_layout-site-logo {
         z-index: 200;
       }
     }
