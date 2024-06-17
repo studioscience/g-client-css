@@ -275,7 +275,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
         z-index: 99;
       }
     }
-    footer div.footer commerce_builder-link-list dxp_base-text-block.footer-links-header h3{
+    footer div.footer commerce_builder-link-list dxp_base-text-block.footer-links-header h3, footer div.footer dxp_base-text-block.footer-links-header h4{
       font-family: 'aktiv-grotesk', sans-serif !important;
       color: #1A1A1A;
       font-size: 12px;
