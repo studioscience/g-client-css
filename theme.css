@@ -274,6 +274,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
         margin-left: var(--logo-margin);
         margin-top: -6px;
       }
+      div.header-logo dxp_content_layout-site-logo div.dxp-content-layout-site-logo{
+        height: 16px !important;
+      }
+
       div[name='header'] commerce-drilldown-navigation-list {
         position: absolute;
         left: 0;
