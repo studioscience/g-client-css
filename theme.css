@@ -273,6 +273,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       }
       div.header-logo dxp_content_layout-site-logo div.dxp-content-layout-site-logo{
         height: 16px !important;
+        margin-top: -12px;
       }
 
       div[name='header'] commerce-drilldown-navigation-list {
@@ -286,10 +287,26 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
       div[name='header'] div.header-badge-icons{
         right: 0px !important;
-        top: -15px !important;
+        top: -13px !important;
         align-items: center;
         height: 40px !important;
         position: absolute !important;
+      }
+
+      div[name='header'] div.header-badge-icons div.header-account{
+        padding-right: 0;
+      }
+
+      div[name='header'] div.header-badge-icons div.header-wishlist{
+        padding-top:2px;
+      }
+
+      div[name='header'] div.header-badge-icons div.header-cart{
+        padding-top:5px;
+      }
+
+      div[name='header'] div.header-account, div[name='header'] div.header-wishlist{
+        margin-right: 16px
       }
 
       commerce-drilldown-navigation-list lightning-button-icon.close-button svg { 
