@@ -285,6 +285,11 @@ commerce_builder-link-list.utility-header div[slot='header']{
         --logo-margin: -40px;
       }
 
+      div[name='header'] commerce-drilldown-navigation commerce-drilldown-navigation-list  lightning-button-icon.close-button {
+        right: unset;
+        left: 12px;
+      }
+
       div[name='header'] div.header-badge-icons{
         right: 0px !important;
         top: -13px !important;
