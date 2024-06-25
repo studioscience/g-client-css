@@ -279,13 +279,34 @@ commerce_builder-link-list.utility-header div[slot='header']{
         height: 20px;
       }
 
-      header.mobile[ref='header'] div.header-navigation lightning-primitive-icon svg {
+      header[ref='header'] div.header-navigation lightning-primitive-icon svg {
         height: 20px;
       }
 
-      header.mobile[ref='header'] div.header-logo {
+      header[ref='header'] div.header-logo {
         padding-left: 12px;
         margin-top:24px;
+      }
+      
+      header[ref='header'] div.header-search{
+        height: 72px;
+        padding: 16px 25px;
+        border-top: solid 1px #E0E0E0;
+        border-bottom: solid 1px #E0E0E0;
+      }
+
+      header[ref='header'] div.header-search commerce_search-input button.input-search-button {
+        height: 40px;
+        background-color: #E0E0E0;
+        position: absolute;
+        top: -1px;
+        right: 0;
+        width: 40px;
+        padding: 12px;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
       }
 
       div.header-logo dxp_content_layout-site-logo {
