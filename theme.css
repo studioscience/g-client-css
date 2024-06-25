@@ -268,10 +268,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     }
 
     @media screen and (max-width: 767px){
-      header.mobile[ref='header'] {
-        padding: 0;
-      }
-      header.mobile[ref='header'] > div.header-content {
+      header.mobile[ref='header'], header.mobile[ref='header'] > div.header-content {
         padding: 0 !important;
       }
 
@@ -289,10 +286,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
       header.mobile[ref='header'] div.header-logo {
         padding-left: 12px;
         margin-top:26px;
-      }
-      header.mobile[ref='header'] div.header-badge-icons {
-        margin-top:22px;
-        margin-right: 24px;
       }
 
       div.header-logo dxp_content_layout-site-logo {
@@ -319,10 +312,12 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
       div[name='header'] div.header-badge-icons{
         right: 0px !important;
-        top: -13px !important;
         align-items: center;
-        height: 40px !important;
+        height: 24px !important;
         position: absolute !important;
+        margin-top:24px;
+        margin-right: 24px;
+        margin-bottom:24px;
       }
 
       div[name='header'] div.header-badge-icons div.header-account{
