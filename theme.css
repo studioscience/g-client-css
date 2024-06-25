@@ -285,7 +285,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
       header.mobile[ref='header'] div.header-logo {
         padding-left: 12px;
-        margin-top:26px;
+        margin-top:24px;
       }
 
       div.header-logo dxp_content_layout-site-logo {
