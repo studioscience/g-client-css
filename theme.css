@@ -339,6 +339,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
         margin-top:24px;
         margin-right: 24px;
         margin-bottom:24px;
+        padding:0;
       }
 
       div[name='header'] div.header-badge-icons div.header-account{
