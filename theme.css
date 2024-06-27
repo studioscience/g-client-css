@@ -270,6 +270,12 @@ commerce_builder-link-list.utility-header div[slot='header']{
         padding-right: 48px;
         margin-right: 48px;
       }
+
+      .footer-section-columns div.columns-content community_layout-column:last-child{
+        display: flex;
+        align-items: center;
+      }
+
     }
 
     @media screen and (max-width: 767px){
@@ -279,6 +285,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
         padding-bottom: 32px;
         margin-bottom: 32px;
       }
+
 
       header.mobile[ref='header'], header.mobile[ref='header'] > div.header-content {
         padding: 0 !important;
