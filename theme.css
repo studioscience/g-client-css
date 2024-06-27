@@ -265,9 +265,21 @@ commerce_builder-link-list.utility-header div[slot='header']{
         height: 40px !important;
         position: absolute !important;
       }
+      .footer-links-columns {
+        border-right: solid 1px #000;
+        padding-right: 48px;
+        margin-right: 48px;
+      }
     }
 
     @media screen and (max-width: 767px){
+
+      .footer-links-columns{
+        border-bottom: solid 1px #E0E0E0;
+        padding-bottom: 32px;
+        margin-bottom: 32px;
+      }
+
       header.mobile[ref='header'], header.mobile[ref='header'] > div.header-content {
         padding: 0 !important;
       }
