@@ -459,4 +459,9 @@ commerce_builder-link-list.utility-header div[slot='header']{
     .faq-accordion-header h3{
       height: 44px;
       margin-top: 24px;
+      font-family: 'aktiv-grotesk', sans-serif !important;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 27.2px; /* 170% */
     }
