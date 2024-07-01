@@ -284,7 +284,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
         border-bottom: solid 1px #E0E0E0;
         padding-bottom: 32px;
         margin-bottom: 32px;
-      }
+      }d
 
 
       header.mobile[ref='header'], header.mobile[ref='header'] > div.header-content {
@@ -447,4 +447,16 @@ commerce_builder-link-list.utility-header div[slot='header']{
       padding-bottom: 24px;
       border-top: solid 4px #009D4F;
       background-color: #FFFFFF;
+    }
+
+    .faq-container{
+      max-width: 920px;
+      padding: 0 !important;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h3.faq-accordion-header{
+      height: 44px;
+      margin-top: 24px;
     }
