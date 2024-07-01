@@ -461,8 +461,17 @@ commerce_builder-link-list.utility-header div[slot='header']{
       margin-top: 24px;
       font-family: 'aktiv-grotesk', sans-serif !important;
       font-size: 16px;
+      font-style: normal !important;
+      font-weight: 400 !important;
+      line-height: 1.7; /* 170% */
+      color: #1A1A1A !important;
+    }
+
+    community_builder-rich-text-editor.faq-accordion-content div.cb-outputRichText-container {
+      color: var(--surface-neutral, #666);
+      width: 700px;
+      font-size: 14px;
       font-style: normal;
       font-weight: 400;
-      line-height: 27.2px; /* 170% */
-      color: #1A1A1A;
-    }
+      line-height: 1.7; /* 170% */
+    } 
