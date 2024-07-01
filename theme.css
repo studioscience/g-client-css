@@ -464,4 +464,5 @@ commerce_builder-link-list.utility-header div[slot='header']{
       font-style: normal;
       font-weight: 400;
       line-height: 27.2px; /* 170% */
+      color: #1A1A1A;
     }
