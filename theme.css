@@ -456,7 +456,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       margin-right: auto;
     }
 
-    h3.faq-accordion-header{
+    .faq-accordion-header h3{
       height: 44px;
       margin-top: 24px;
     }
