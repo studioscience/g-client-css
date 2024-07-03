@@ -276,6 +276,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
         align-items: center;
       }
 
+      .faq-container{
+        width: 920px;
+      }
+
     }
 
     @media screen and (max-width: 767px){
