@@ -456,6 +456,15 @@ commerce_builder-link-list.utility-header div[slot='header']{
       margin-right: auto;
     }
 
+    .faq-main-header div.cb-outputRichText-container{
+      color: var(--Black-900, #121212);
+      font-family: 'aktiv-grotesk', sans-serif !important;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 44px; /* 157.143% */
+    }
+
     .faq-accordion-header h3{
       height: 44px;
       margin-top: 24px;
