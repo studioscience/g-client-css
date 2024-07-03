@@ -288,7 +288,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
         border-bottom: solid 1px #E0E0E0;
         padding-bottom: 32px;
         margin-bottom: 32px;
-      }d
+      }
 
 
       header.mobile[ref='header'], header.mobile[ref='header'] > div.header-content {
@@ -477,6 +477,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
       font-style: normal;
       font-weight: 700;
       line-height: 1.7; /* 170% */
+    }
+
+    .faq-contact-info{
+      overflow:hidden !important;
     }
 
     .faq-more-questions div.cb-outputRichText-container, .faq-contact-info div.cb-outputRichText-container{
