@@ -465,6 +465,15 @@ commerce_builder-link-list.utility-header div[slot='header']{
       line-height: 44px; /* 157.143% */
     }
 
+    .faq-section-header div.cb-outputRichText-container{
+      color: var(--Black-900, #121212);
+      font-family: 'aktiv-grotesk', sans-serif !important;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 1.7; /* 170% */
+    }
+
     .faq-accordion-header h3{
       height: 44px;
       margin-top: 24px;
