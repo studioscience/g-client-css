@@ -534,7 +534,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       color: #1A1A1A !important;
     }
 
-    community_builder-rich-text-editor.faq-accordion-content div.cb-outputRichText-container {
+    community_builder-rich-text-editor.faq-accordion-content div.cb-outputRichText-container, community_builder-output-rich-text.faq-accordion-content div.cb-outputRichText-container {
       color: var(--surface-neutral, #666);
       font-family: 'aktiv-grotesk', sans-serif !important;
       width: 700px;
