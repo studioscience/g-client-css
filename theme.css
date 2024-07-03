@@ -475,7 +475,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       line-height: 1.7; /* 170% */
     }
 
-    .faq-container div.interactions-component {
+    .faq-container .faq-accordion-container details{
       padding-bottom: 16px;
       border-bottom: 1px solid var(--Black-300, #CBCBCB);
     }
