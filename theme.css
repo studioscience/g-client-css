@@ -292,7 +292,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       }
 
       community_builder-rich-text-editor.faq-accordion-content div.cb-outputRichText-container, community_builder-output-rich-text.faq-accordion-content div.cb-outputRichText-container {
-        max-width: 100vw;
+        max-width: calc(100vw - 24px);
       }
 
       .faq-accordion-container details div.content {
