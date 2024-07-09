@@ -292,7 +292,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       }
 
       .faq-accordion-container details div.content {
-        max-width: 100vw;
+        max-width: calc(100vw - 24px);
       }
 
       .footer-links-columns{
