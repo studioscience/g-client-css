@@ -291,12 +291,14 @@ commerce_builder-link-list.utility-header div[slot='header']{
         padding-left: 12px;
       }
 
-      community_builder-rich-text-editor.faq-accordion-content div.cb-outputRichText-container, community_builder-output-rich-text.faq-accordion-content div.cb-outputRichText-container {
-        max-width: calc(100vw - 50px);
-      }
-
-      .faq-accordion-container details div.content {
-        max-width: calc(100vw - 50px);
+      community_builder-rich-text-editor.faq-accordion-content div.cb-outputRichText-container,
+      community_builder-output-rich-text.faq-accordion-content div.cb-outputRichText-container,
+      .faq-accordion-container details div.content,
+      .faq-accordion-container details div.content p,
+      .faq-accordion-container details div.content ul,
+      .faq-accordion-container details div.content ul li
+      {
+        max-width: calc(100vw - 24px);
       }
 
       .footer-links-columns{
