@@ -562,7 +562,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       line-height: 1.7; /* 170% */
     }
 
-    .faq-contact-info{
+    .faq-contact-info, .faq-more-questions{
       overflow:hidden !important;
     }
 
