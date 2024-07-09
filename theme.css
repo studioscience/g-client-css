@@ -347,7 +347,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
       header.mobile[ref='header'] commerce-drilldown-navigation-list nav ul  li button lightning-icon.chevron-left {
         left: 23px;
-        padding-top: 0;
       }
 
 
