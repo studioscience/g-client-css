@@ -313,19 +313,27 @@ commerce_builder-link-list.utility-header div[slot='header']{
         width: calc(100% - 32px);
       }
 
-      header.mobile[ref='header'] commerce-drilldown-navigation-list nav ul  li.slds-list__item a, header.mobile[ref='header'] commerce-drilldown-navigation-list nav ul  li.slds-list__item button {
+      header.mobile[ref='header'] commerce-drilldown-navigation-list nav ul  li.slds-list__item a,
+      header.mobile[ref='header'] commerce-drilldown-navigation-list nav ul  li.slds-list__item button {
         padding: 16px 25px !important;
       }
 
-      header.mobile[ref='header'] commerce-drilldown-navigation-list nav:not([aria-label='']) ul  li.slds-list__item a, header.mobile[ref='header'] commerce-drilldown-navigation-list nav:not([aria-label='']) ul  li button {
+      header.mobile[ref='header'] commerce-drilldown-navigation-list nav:not([aria-label='']) ul  li.slds-list__item a,
+      header.mobile[ref='header'] commerce-drilldown-navigation-list nav:not([aria-label='']) ul  li button {
         padding: 16px 25px 16px 53px !important;
       }
+
       header.mobile[ref='header'] commerce-drilldown-navigation-list nav:not([aria-label='']) ul  li:has(a):not(.slds-list__item) {
         display: none;
       }
 
       header.mobile[ref='header'] commerce-drilldown-navigation-list nav ul  li.slds-list__item button lightning-icon{
         top: 16px !important;
+      }
+
+      header.mobile[ref='header'] commerce-drilldown-navigation-list nav ul  li button lightning-icon.chevron-left {
+        left: 23px;
+        padding-top: 0;
       }
 
 
