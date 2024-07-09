@@ -574,6 +574,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
       margin-bottom: 40px;
     }
 
+    .faq-accordion-header h3 {
+      height: fit-content !important;
+    }
+
     .faq-more-questions div.cb-outputRichText-container h2 span, .faq-contact-info div.cb-outputRichText-container h2 span{
       color: var(--Black-900, #121212);
       font-family: 'aktiv-grotesk', sans-serif !important;
