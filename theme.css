@@ -295,10 +295,13 @@ commerce_builder-link-list.utility-header div[slot='header']{
       community_builder-output-rich-text.faq-accordion-content div.cb-outputRichText-container,
       .faq-accordion-container details div.content,
       .faq-accordion-container details div.content p,
-      .faq-accordion-container details div.content ul,
-      .faq-accordion-container details div.content ul li
+      .faq-accordion-container details div.content ul
       {
         max-width: calc(100vw - 24px);
+      }
+
+      .faq-accordion-container details div.content ul li {
+        max-width: calc(100vw - 70px);
       }
 
       .footer-links-columns{
