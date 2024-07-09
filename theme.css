@@ -88,7 +88,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     commerce_builder-link-list.utility-header commerce-link-list ul li:last-child {
   margin-left: auto;
 }
-    commerce_builder-link-list.utility-header commerce-link-list ul li:not(:first-child):not(:last-child)::before {
+    commerce_builder-link-list.utility-header commerce-link-list ul li:not(:first-child)::before {
   content: "|";
   padding-left: 16px;
   padding-right: 16px;
@@ -495,7 +495,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       flex-wrap: wrap;
     }
 
-    footer div.footer commerce_builder-link-list.legal-links commerce-link-list ul li:not(:first-child):not(:last-child)::before {
+    footer div.footer commerce_builder-link-list.legal-links commerce-link-list ul li:not(:first-child)::before {
       content: '|';
       margin-left: 5px;
       margin-right: 5px;
