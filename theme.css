@@ -290,6 +290,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
         margin-bottom: 32px;
       }
 
+      header.mobile[ref='header'] commerce-drilldown-navigation lightning-button-icon:first-of-type{
+        color: #000 !important;
+      }
+
       header.mobile[ref='header'] commerce-drilldown-navigation-list span.close-button-wrapper{
         height: 64px;
         padding-top: 16px;
