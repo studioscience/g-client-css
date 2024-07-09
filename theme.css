@@ -331,7 +331,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
         color: #000;
         text-align: center;
         display: flex;
-        padding: var(--spacing-sm, 8px) var(--spacing-md, 16px);
+        padding: var(--spacing-sm, 8px) var(--spacing-md, 16px) !important;
         justify-content: center;
         align-items: center;
         border-radius: var(--radius-xs, 2px);
@@ -342,6 +342,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
         line-height: 28px; /* 254.545% */
         letter-spacing: 1.5px;
         text-transform: uppercase;
+        width: fit-content;
+        margin-left: 25px;
+        margin-top: 24px;
+        margin-bottom: 24px;
       }
 
       header.mobile[ref='header'] commerce-drilldown-navigation-list nav:not([aria-label='']) ul  li.slds-list__item a,
