@@ -297,10 +297,12 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
       header.mobile[ref='header'] commerce-drilldown-navigation-list nav ul {
         top: 64px !important;
+        height: calc(100% - 64px) !important;
       }
 
       header.mobile[ref='header'] commerce-drilldown-navigation-list nav ul  li.slds-list__item:has(a[href='/'])::after,
-      header.mobile[ref='header'] commerce-drilldown-navigation-list nav ul  li.slds-list__item:has(a[href*='redeem'])::after  {
+      header.mobile[ref='header'] commerce-drilldown-navigation-list nav ul  li.slds-list__item:has(a[href*='redeem'])::after,
+      header.mobile[ref='header'] commerce-drilldown-navigation-list nav ul  li.slds-list__item:has(a[href*='gallupaccess'])::after  {
         content: "";
         border-bottom: solid 1px var(--border-primary, #E0E0E0);
         margin-top: 16px;
