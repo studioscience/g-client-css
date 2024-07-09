@@ -287,6 +287,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
     @media screen and (max-width: 767px){
 
+      .faq-section-header div.cb-outputRichText-container, .faq-main-header div.cb-outputRichText-container{
+        padding-left: 12px;
+      }
+
       community_builder-rich-text-editor.faq-accordion-content div.cb-outputRichText-container, community_builder-output-rich-text.faq-accordion-content div.cb-outputRichText-container {
         max-width: 100vw;
       }
