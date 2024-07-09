@@ -327,6 +327,23 @@ commerce_builder-link-list.utility-header div[slot='header']{
         line-height: 1.7; 
       }
 
+      header.mobile[ref='header'] commerce-drilldown-navigation-list nav ul  li.slds-list__item a[href*='redeem'] {
+        color: #000;
+        text-align: center;
+        display: flex;
+        padding: var(--spacing-sm, 8px) var(--spacing-md, 16px);
+        justify-content: center;
+        align-items: center;
+        border-radius: var(--radius-xs, 2px);
+        border: 1px solid var(--border-secondary, #009D4F);
+        font-size: 11px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; /* 254.545% */
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+      }
+
       header.mobile[ref='header'] commerce-drilldown-navigation-list nav:not([aria-label='']) ul  li.slds-list__item a,
       header.mobile[ref='header'] commerce-drilldown-navigation-list nav:not([aria-label='']) ul  li button {
         padding: 16px 25px 16px 53px !important;
@@ -349,7 +366,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
         left: 23px;
       }
 
-
       header.mobile[ref='header'], header.mobile[ref='header'] > div.header-content {
         padding: 0 !important;
       }
@@ -369,7 +385,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
         padding-left: 12px;
         margin-top:24px;
       }
-      
+
       header[ref='header'] div.header-search{
         height: 72px;
         padding: 16px 25px;
