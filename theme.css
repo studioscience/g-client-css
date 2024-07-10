@@ -88,7 +88,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     commerce_builder-link-list.utility-header commerce-link-list ul li:last-child {
   margin-left: auto;
 }
-    commerce_builder-link-list.utility-header commerce-link-list ul li:not(:first-child)::before {
+    commerce_builder-link-list.utility-header commerce-link-list ul li:not(:first-child):not(:last-child)::before {
   content: "|";
   padding-left: 16px;
   padding-right: 16px;
