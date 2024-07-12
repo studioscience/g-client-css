@@ -721,10 +721,14 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
     .fa-brands a[href*='facebook.com']::before {
       content: "\f39e";
+      height: 24px;
+      padding-top: 11px;
+      font-size: 18px;
     }
 
     .fa-brands a[href*='youtube.com']::before {
       content: "\f167";
+      padding-left: 3px;
     }
 
 
