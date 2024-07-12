@@ -683,8 +683,9 @@ commerce_builder-link-list.utility-header div[slot='header']{
       opacity: 0 !important;
     }
 
-    .fa-brands a[href='https://www.linkedin.com/']::before {
-      content: "\f0e1";
+    .fa-brands a[href*='linkedin.com']::before,
+    .fa-brands a[href*='twitter.com']::before,
+    .fa-brands a[href*='x.com']::before {
       display: flex;
       width: 24px;
       align-items: center;
@@ -693,8 +694,18 @@ commerce_builder-link-list.utility-header div[slot='header']{
       background: var(--icon-black, #000);
       color: #FFFFFF;
     }
-    .fa-brands a[href='https://www.linkedin.com/'] img {
+    .fa-brands a[href*='linkedin.com'] img,
+    .fa-brands a[href*='twitter.com'] img,
+    .fa-brands a[href*='x.com'] img {
       display: none;
+    }
+
+    .fa-brands a[href*='linkedin.com']::before {
+      content: "\f0e1";
+    }
+
+    .fa-brands a[href*='twitter.com']::before, .fa-brands a[href*='x.com']::before {
+      content: "\e61b";
     }
 
 
