@@ -662,3 +662,14 @@ commerce_builder-link-list.utility-header div[slot='header']{
     .fa-user svg {
       opacity: 0 !important;
     }
+
+    .fa-user::before{
+      position: absolute;
+      top: 16px;
+      left: 4px;
+      z-index: 80;
+    }
+
+    .fa-user .slds-dropdown-trigger{
+      margin-top:-4px;
+    }
