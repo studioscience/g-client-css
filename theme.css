@@ -685,7 +685,8 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
     .fa-brands a[href*='linkedin.com']::before,
     .fa-brands a[href*='twitter.com']::before,
-    .fa-brands a[href*='x.com']::before {
+    .fa-brands a[href*='x.com']::before,
+    .fa-brands a[href*='instagram.com']::before{
       display: flex;
       width: 24px;
       align-items: center;
@@ -696,7 +697,8 @@ commerce_builder-link-list.utility-header div[slot='header']{
     }
     .fa-brands a[href*='linkedin.com'] img,
     .fa-brands a[href*='twitter.com'] img,
-    .fa-brands a[href*='x.com'] img {
+    .fa-brands a[href*='x.com'] img,
+    .fa-brands a[href*='instagram.com'] img {
       display: none;
     }
 
@@ -706,6 +708,11 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
     .fa-brands a[href*='twitter.com']::before, .fa-brands a[href*='x.com']::before {
       content: "\e61b";
+      padding-left: 4px;
+    }
+
+    .fa-brands a[href*='instagram.com']::before {
+      content: "\f16d";
     }
 
 
