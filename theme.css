@@ -654,3 +654,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       font-weight: 400;
       line-height: 1.7; /* 170% */
     } 
+
+    .fa-solid svg {
+      display: none !important;
+    }
