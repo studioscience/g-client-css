@@ -283,6 +283,16 @@ commerce_builder-link-list.utility-header div[slot='header']{
       community_builder-rich-text-editor.faq-accordion-content div.cb-outputRichText-container, community_builder-output-rich-text.faq-accordion-content div.cb-outputRichText-container {
         max-width: 700px;
       }
+      .fa-user::before{
+        position: absolute;
+        top: 16px;
+        left: 4px;
+        z-index: 80;
+      }
+  
+      .fa-user .slds-dropdown-trigger{
+        margin-top:-4px;
+      }
     }
 
     @media screen and (max-width: 767px){
@@ -491,6 +501,16 @@ commerce_builder-link-list.utility-header div[slot='header']{
         height: 20px;
         width: 20px;
       }
+      
+      .fa-user::before{
+        position: absolute;
+        top: 8px;
+        left: 4px;
+        z-index: 80;
+      }
+      .fa-user .slds-dropdown-trigger{
+        margin-top:-4px;
+      }
     }
     footer div.footer commerce_builder-link-list dxp_base-text-block.footer-links-header h3, footer div.footer dxp_base-text-block.footer-links-header h4{
       font-family: 'aktiv-grotesk', sans-serif !important;
@@ -663,13 +683,4 @@ commerce_builder-link-list.utility-header div[slot='header']{
       opacity: 0 !important;
     }
 
-    .fa-user::before{
-      position: absolute;
-      top: 16px;
-      left: 4px;
-      z-index: 80;
-    }
 
-    .fa-user .slds-dropdown-trigger{
-      margin-top:-4px;
-    }
