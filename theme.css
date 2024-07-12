@@ -683,4 +683,18 @@ commerce_builder-link-list.utility-header div[slot='header']{
       opacity: 0 !important;
     }
 
+    .fa-brands a[href='https://www.linkedin.com/']::before {
+      content: "\f0e1";
+      display: flex;
+      width: 24px;
+      align-items: center;
+      padding: var(--radius-sm, 4px) 5px;
+      border-radius: var(--radius-xs, 2px);
+      background: var(--icon-black, #000);
+      color: #FFFFFF;
+    }
+    .fa-brands a[href='https://www.linkedin.com/'] img {
+      display: none;
+    }
+
 
