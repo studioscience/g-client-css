@@ -655,6 +655,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
       line-height: 1.7; /* 170% */
     } 
 
-    .fa-solid svg {
+    .fa-cart svg {
       display: none !important;
+    }
+
+    .fa-user svg {
+      opacity: 0 !important;
     }
