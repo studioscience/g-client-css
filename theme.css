@@ -284,6 +284,12 @@ commerce_builder-link-list.utility-header div[slot='header']{
         max-width: 700px;
       }
       .fa-user::before{
+        position: relative;
+        top: 10px;
+        left: 0px;
+        z-index: 80;
+      }
+      .fa-user:has(.slds-dropdown-trigger)::before{
         position: absolute;
         top: 16px;
         left: 4px;
