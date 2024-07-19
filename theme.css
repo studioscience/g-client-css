@@ -534,7 +534,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
         line-height: 20px;
       }
 
-      .category-columns div.columns-content{
+      .category-columns div.column-content{
         flex-direction: row;
         gap: 24px;
         width: 100vw;
