@@ -291,8 +291,8 @@ commerce_builder-link-list.utility-header div[slot='header']{
       }
       .fa-user:has(.slds-dropdown-trigger)::before{
         position: absolute;
-        top: 16px;
-        left: 4px;
+        top: 13px;
+        left: 0px;
         z-index: 80;
       }
   
