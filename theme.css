@@ -738,3 +738,14 @@ commerce_builder-link-list.utility-header div[slot='header']{
     }
 
 
+    /* CTA Tiles */
+
+    slot[name='imageRegion'] .fa-solid {
+      display: flex;
+      justify-content: center;
+    }
+
+    slot[name='imageRegion'] .fa-solid img {
+      display: none;
+    }
+
