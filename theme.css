@@ -310,6 +310,12 @@ commerce_builder-link-list.utility-header div[slot='header']{
     }
 
     @media screen and (max-width: 767px){
+      .text-standard{
+        font-family: 'aktiv-grotesk', sans-serif !important;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.7;
+      }
 
       .text-standard-body{
         font-family: 'aktiv-grotesk', sans-serif !important;
