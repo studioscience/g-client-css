@@ -311,6 +311,22 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
     @media screen and (max-width: 767px){
 
+      .text-standard-body{
+        font-family: 'aktiv-grotesk', sans-serif !important;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.7;
+      }
+
+      .text-standard-small{
+        font-family: 'aktiv-grotesk', sans-serif !important;
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 1.7;
+      }
+
       .faq-section-header div.cb-outputRichText-container, .faq-main-header div.cb-outputRichText-container{
         padding-left: 12px;
       }
