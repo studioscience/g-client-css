@@ -789,7 +789,9 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
     slot[name='imageRegion'] .fa-solid {
       display: flex;
+      flex-direction: column;
       justify-content: center;
+      align-items: center;
     }
     slot[name='imageRegion'] .fa-solid::before{
       font-size: 20px;
