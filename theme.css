@@ -803,5 +803,9 @@ commerce_builder-link-list.utility-header div[slot='header']{
     slot[name='contentRegion'] h4 {
         min-height:69px;
     }
+    
+    .cta-callout {
+      margin-bottom: 0;
+    }
 
 
