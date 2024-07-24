@@ -1,5 +1,15 @@
 :root {
   --com-c-theme-version: 1;
+  --dxp-s-form-element-text-font-family: 'aktiv-grotesk', sans-serif;
+  --dxp-s-form-element-caption-text-font-family: 'aktiv-grotesk', sans-serif;
+  --dxp-s-button-font-family: 'aktiv-grotesk', sans-serif;
+  --dxp-s-text-heading-small-font-family: 'aktiv-grotesk', sans-serif;
+  --dxp-s-body-font-family: 'aktiv-grotesk', sans-serif;
+  --dxp-s-text-heading-extra-large-font-family: 'aktiv-grotesk', sans-serif;
+  --dxp-s-body-small-font-family: 'aktiv-grotesk', sans-serif;
+  --dxp-s-form-element-label-font-family: 'aktiv-grotesk', sans-serif;
+  --dxp-s-text-heading-large-font-family: 'aktiv-grotesk', sans-serif;
+  --dxp-s-text-heading-medium-font-family: 'aktiv-grotesk', sans-serif;
 }
 
 .text-standard{
