@@ -834,6 +834,9 @@ commerce_builder-link-list.utility-header div[slot='header']{
       font-weight: 700;
       line-height: 1.7;
     }
+    .product-wishlist-icon {
+      position: relative;
+    }
     .product-wishlist-icon .slds-button{
       position: absolute;
       right: 16px;
