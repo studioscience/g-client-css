@@ -915,7 +915,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     .product-all-link.fa-chevron-right::before {
       position: absolute;
       right: 0px;
-      top: 5px;
+      top: 4px;
     }
 
     .product-learn-more h3 {
