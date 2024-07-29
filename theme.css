@@ -861,6 +861,22 @@ commerce_builder-link-list.utility-header div[slot='header']{
       line-height: 1.7; /* 170% */
     }
 
+    .product-format a.slds-button{
+      display: flex;
+      padding: var(--radius-xs, 2px) 8px;
+      align-items: flex-start;
+      gap: 10px;
+      border-radius: 8px;
+      border: 1px solid #000;
+      background: var(--text-headings, #1A1A1A);
+      color: white;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.7;
+      text-transform: capitalize;
+    }
+
     .product-wishlist-icon {
       position: relative;
     }
