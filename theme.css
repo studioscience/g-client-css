@@ -818,4 +818,8 @@ commerce_builder-link-list.utility-header div[slot='header']{
       margin-bottom: 0;
     }
 
+    /* Product Grids */
 
+    .product-grid .dxp-block-flexible-container {
+      width: 100%;
+    }
