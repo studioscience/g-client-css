@@ -823,3 +823,22 @@ commerce_builder-link-list.utility-header div[slot='header']{
     .product-grid .dxp-block-flexible-container {
       width: 100%;
     }
+
+    .product-card-cart lightning-button-icon.c-productQuantitySelectorPopover_productQuantitySelectorPopover {
+      display: none;
+    }
+
+    .product-card-cart .slds-button_brand {
+      width: 100%;
+      font-size: 11px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 28px; /* 254.545% */
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: var(--spacing-sm, 8px) var(--spacing-md, 16px);
+    }
+
+    .product-card-cart .number-input__input.c-commonNumberInput_commonNumberInput  {
+      height: 44px;
+    }
