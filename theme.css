@@ -896,7 +896,26 @@ commerce_builder-link-list.utility-header div[slot='header']{
       line-height: 1.7;
     }
 
-    .product-learn-more.fa-solid {
+    .product-all-link a {
+      color: var(--text-primary-button-hover, #009D4F);
+      text-align: center;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 22.6px; /* 141.25% */
+      text-decoration-line: underline;
+      text-transform: uppercase;
+      padding-right: 15px;
+    }
+
+    .product-all-link.fa-chevron-right::before {
+      position: absolute;
+      right: 0px;
+      top: 12px;
+    }
+
+
+    .product-learn-more.fa-solid, .product-all-link.fa-solid{
       position: relative;
     }
 
