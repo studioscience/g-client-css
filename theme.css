@@ -828,6 +828,13 @@ commerce_builder-link-list.utility-header div[slot='header']{
       display: none;
     }
 
+    .product-grid .product-name h3 {
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 1.7;
+    }
+
     .product-grid .product-description {
       height: 150px;
     }
@@ -836,7 +843,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       font-size: 14px;
       font-style: normal;
       font-weight: 400;
-      line-height: 23.8px; /* 170% */
+      line-height: 1.7; /* 170% */
     }
 
     .product-card-cart .slds-button_brand {
