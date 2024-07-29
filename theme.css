@@ -820,6 +820,20 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
     /* Product Grids */
 
+    .product-section h2 {
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 46.5px; 
+    }
+    
+    .product-section h3 {
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 38px;
+    }
+
     .product-grid .dxp-block-flexible-container {
       width: 100% !important;
     }
