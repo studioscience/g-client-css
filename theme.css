@@ -879,6 +879,14 @@ commerce_builder-link-list.utility-header div[slot='header']{
       line-height: 1.7;
       text-transform: capitalize;
     }
+    .product-format{
+      height: 30px;
+      margin-bottom: 8px !important;
+    }
+
+    .product-format a:empty {
+      display: none !important;
+    }
 
     .product-wishlist-icon {
       position: relative;
