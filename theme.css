@@ -860,6 +860,9 @@ commerce_builder-link-list.utility-header div[slot='header']{
       font-weight: 300;
       line-height: 1.7; /* 170% */
     }
+    .product-name{
+      margin-bottom:0 !important;
+    }
 
     .product-format a.slds-button{
       display: flex;
