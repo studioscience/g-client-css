@@ -836,7 +836,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     }
 
     .product-grid .product-description {
-      height: 150px;
+      height: 150px ip !important;
     }
 
     .product-grid .product-description p{
