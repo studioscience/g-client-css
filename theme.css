@@ -888,6 +888,14 @@ commerce_builder-link-list.utility-header div[slot='header']{
       display: none !important;
     }
 
+    .product-date p {
+      color: var(--surface-neutral, #666);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.7;
+    }
+
     .product-wishlist-icon {
       position: relative;
     }
