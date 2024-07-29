@@ -847,6 +847,11 @@ commerce_builder-link-list.utility-header div[slot='header']{
       line-height: 1.7; /* 170% */
     }
 
+    /*Quantity Selector column*/
+    .product-card-cart dxp_layout-column.col-size_12-of-12.col-large-size_6-of-12:first-of-type {
+      max-width: 150px;
+    }
+
     .product-card-cart .slds-button_brand {
       width: 100%;
       font-size: 11px;
