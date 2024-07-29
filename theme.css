@@ -574,6 +574,12 @@ commerce_builder-link-list.utility-header div[slot='header']{
         overflow: scroll;
       }
 
+      .product-grid .slds-grid.slds-wrap {
+        width: 100vw;
+        overflow: scroll;
+        flex-wrap: nowrap;
+      }
+
     }
     footer div.footer commerce_builder-link-list dxp_base-text-block.footer-links-header h3, footer div.footer dxp_base-text-block.footer-links-header h4{
       font-family: 'aktiv-grotesk', sans-serif !important;
