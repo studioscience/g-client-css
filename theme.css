@@ -821,7 +821,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     /* Product Grids */
 
     .product-grid .dxp-block-flexible-container {
-      width: 100%;
+      width: 100% !important;
     }
 
     .product-card-cart lightning-button-icon.c-productQuantitySelectorPopover_productQuantitySelectorPopover {
