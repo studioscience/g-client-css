@@ -826,7 +826,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       font-weight: 300;
       line-height: 46.5px; 
     }
-    
+
     .product-section h3 {
       font-size: 20px;
       font-style: normal;
@@ -848,6 +848,19 @@ commerce_builder-link-list.utility-header div[slot='header']{
       font-weight: 700;
       line-height: 1.7;
     }
+
+    .product-type{
+      margin-bottom: 12px !important;
+    }
+
+    .product-type p{
+      color: var(--text-headings, #1A1A1A);
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 1.7; /* 170% */
+    }
+
     .product-wishlist-icon {
       position: relative;
     }
