@@ -588,6 +588,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
         max-width: 165px;
         margin-left: -20px;
       }
+      .product-card-cart dxp_Layout-column {
+        max-width: calc(100vw - 190px);
+        margin-left: 15px;
+      }
 
     }
     footer div.footer commerce_builder-link-list dxp_base-text-block.footer-links-header h3, footer div.footer dxp_base-text-block.footer-links-header h4{
