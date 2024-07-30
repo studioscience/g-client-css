@@ -580,6 +580,15 @@ commerce_builder-link-list.utility-header div[slot='header']{
         flex-wrap: nowrap;
       }
 
+      /*Quantity Selector column*/
+      .product-card-cart div.columns {
+        flex-direction: row !important;
+      }
+      .product-card-cart dxp_layout-column.col-size_12-of-12.col-large-size_6-of-12:first-of-type {
+        max-width: 165px;
+        margin-left: -20px;
+      }
+
     }
     footer div.footer commerce_builder-link-list dxp_base-text-block.footer-links-header h3, footer div.footer dxp_base-text-block.footer-links-header h4{
       font-family: 'aktiv-grotesk', sans-serif !important;
