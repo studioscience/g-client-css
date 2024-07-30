@@ -593,7 +593,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
         margin-left: 15px;
       }
 
-      .strengths-at-scale .dxp-content-layout-card-columns .dxp-block-two-column-container.slds-grid_vertical-reverse .slds-col.dxp-block-two-column-cell:first {
+      .strengths-at-scale .dxp-content-layout-card-columns .dxp-block-two-column-container.slds-grid_vertical-reverse .slds-col.dxp-block-two-column-cell {
         display: none;
       }
 
