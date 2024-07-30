@@ -618,6 +618,9 @@ commerce_builder-link-list.utility-header div[slot='header']{
         border-radius: var(--radius-xs, 2px);
         background: var(--surface-primary-button, #009D4F);
       }
+      .strengths-at-scale .section-header h2{ 
+        font-size: 20px;
+      }
 
     }
     footer div.footer commerce_builder-link-list dxp_base-text-block.footer-links-header h3, footer div.footer dxp_base-text-block.footer-links-header h4{
@@ -1055,4 +1058,11 @@ commerce_builder-link-list.utility-header div[slot='header']{
       padding: var(--spacing-sm, 8px) var(--spacing-md, 16px);
       border-radius: var(--radius-xs, 2px);
       background: var(--surface-primary-button, #009D4F);
+    }
+
+    .strengths-at-scale .section-header h2{
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 46.5px; 
     }
