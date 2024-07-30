@@ -1011,3 +1011,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
     .strengths-at-scale .dxp-tab-bar-container {
       border-bottom: none !important;
     }
+    .strengths-at-scale .dxp-tab-container {
+      padding-top: 48px;
+    }
