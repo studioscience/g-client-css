@@ -324,7 +324,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       }
       .fa-user:has(.slds-dropdown-trigger)::before{
         position: absolute;
-        top: 13px;
+        top: 17px;
         left: 0px;
         z-index: 80;
       }
@@ -794,6 +794,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
       opacity: 0 !important;
     }
 
+    .header-cart .fa-solid {
+      position: relative;
+    }
+
     .fa-brands a[href*='linkedin.com']::before,
     .fa-brands a[href*='twitter.com']::before,
     .fa-brands a[href*='x.com']::before,
@@ -1079,7 +1083,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
   
   .btn-hero-learnmore a, .btn-hero-explore a, .btn-most-popular a {
       width: 100%;
-  font-size: 11px;
+      font-size: 11px;
       font-weight: bolder;
       color: #000;
   }
