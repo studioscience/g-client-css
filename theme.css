@@ -1033,6 +1033,114 @@ commerce_builder-link-list.utility-header div[slot='header']{
       height: 44px;
     }
 
+/* checkout */
+    .input-text div {
+      font-family: Aktiv Grotesk, sans-serif;
+      border-radius: 6px;
+      border-color: rgba(203, 203, 203, 1);
+      border-style: solid;
+      border-width: 1px;
+      background-color: var(--White, #fff);
+      margin-top: 8px;
+      color: var(--surface-neutral-dark, #2b2b2b);
+      white-space: nowrap;
+      justify-content: center;
+      padding: 14px 16px;
+  }
+
+   .btn-most-popular {
+      font-weight: bolder !important;
+      max-width: 50%;
+      color: #00754A;
+  }
+  
+  .btn-most-popular a {
+      border-radius: 5px;
+      border: none;
+  background: #E4F2E1;
+      color: #00754A !important;
+      font-size: 12px;
+      font-weight: bolder !important;
+      line-height: normal;
+      letter-spacing: 1.4px;
+      text-transform: uppercase;
+      padding: 8px 0;
+  }
+  
+  .btn-2col {
+      display: flex;
+      flex-grow: 0;
+      flex: 0;
+  }
+  
+  .btn-hero-learnmore a,  .btn-hero-explore a {
+      padding: 8px 0;
+  }
+  
+  .btn-hero-learnmore a, .btn-hero-explore a, .btn-most-popular a {
+      width: 100%;
+  font-size: 11px;
+      font-weight: bolder;
+      color: #000;
+  }
+  
+  .product-description {
+      font-size: 14px !important;
+  }
+  
+  .custom-product-pricing {
+      font-weight: bolder;
+  }
+  
+  .checkout-header h2 {
+      color: var(--Black-900, #121212);
+      font: 300 28px/157% Aktiv Grotesk, -apple-system, Roboto, Helvetica, sans-serif;
+      border-bottom: 1px #E0E0E0 solid;
+      padding-bottom: 24px;
+  }
+  
+  .checkout-subhead h3 {
+      color: #000;
+      font: Aktiv Grotesk, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 16px;
+  }
+  
+  .checkout-nextBtn button {
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      padding: 8px 48px;
+      font-family: Aktiv Grotesk, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 11px !important;
+  }
+  
+  .checkout-editBtn {
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      padding: 8px 48px;
+      font-family: Aktiv Grotesk, -apple-system, Roboto, Helvetica, sans-serif;
+      font-size: 11px;
+  }
+  
+  .order-summary-section {
+      border: 1px solid #E0E0E0;
+      border-radius: 6px;
+      padding: 24px;
+  }
+  
+  @media only screen and (min-width: 739px) {
+      
+      .btn-most-popular {
+        max-width: 25%;
+    }
+      
+      .btn-hero-learnmore {
+          max-width: 100%;
+      }
+      
+      .btn-hero-explore {
+          max-width: 35%;
+      }
+  }
     .strengths-at-scale .dxp-tab-bar-container {
       border-bottom: none !important;
     }
