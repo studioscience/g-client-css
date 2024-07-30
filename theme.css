@@ -593,6 +593,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
         margin-left: 15px;
       }
 
+      .strengths-at-scale .dxp-content-layout-card-columns .dxp-block-two-column-container.slds-grid_vertical-reverse .slds-col.dxp-block-two-column-cell:first {
+        display: none;
+      }
+
     }
     footer div.footer commerce_builder-link-list dxp_base-text-block.footer-links-header h3, footer div.footer dxp_base-text-block.footer-links-header h4{
       font-family: 'aktiv-grotesk', sans-serif !important;
