@@ -597,6 +597,28 @@ commerce_builder-link-list.utility-header div[slot='header']{
         display: none;
       }
 
+      .strengths-at-scale .tab-header-text h1{
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 1.9;
+        color: #1e1e1e;
+      }
+      .strengths-at-scale .tab-text h4, .strengths-at-scale .tab-text p{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.7;
+        color: var(--text-headings, #1A1A1A);
+      }
+      .strengths-at-scale .tab-button .slds-button {
+        width: 100%;
+        height: 44px;
+        padding: var(--spacing-sm, 8px) var(--spacing-md, 16px);
+        border-radius: var(--radius-xs, 2px);
+        background: var(--surface-primary-button, #009D4F);
+      }
+
     }
     footer div.footer commerce_builder-link-list dxp_base-text-block.footer-links-header h3, footer div.footer dxp_base-text-block.footer-links-header h4{
       font-family: 'aktiv-grotesk', sans-serif !important;
