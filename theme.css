@@ -580,6 +580,48 @@ commerce_builder-link-list.utility-header div[slot='header']{
         flex-wrap: nowrap;
       }
 
+      /*Quantity Selector column*/
+      .product-card-cart div.columns {
+        flex-direction: row !important;
+      }
+      .product-card-cart dxp_layout-column.col-size_12-of-12.col-large-size_6-of-12:first-of-type {
+        max-width: 165px;
+        margin-left: -20px;
+      }
+      .product-card-cart dxp_layout-column {
+        max-width: calc(100vw - 190px);
+        margin-left: 15px;
+      }
+
+      .strengths-at-scale .dxp-content-layout-card-columns .dxp-block-two-column-container.slds-grid_vertical-reverse .slds-col.dxp-block-two-column-cell:first-child {
+        display: none;
+      }
+
+      .strengths-at-scale .tab-header-text h1{
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 1.9;
+        color: #1e1e1e;
+      }
+      .strengths-at-scale .tab-text h4, .strengths-at-scale .tab-text p{
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.7;
+        color: var(--text-headings, #1A1A1A);
+      }
+      .strengths-at-scale .tab-button .slds-button {
+        width: 100%;
+        height: 44px;
+        padding: var(--spacing-sm, 8px) var(--spacing-md, 16px);
+        border-radius: var(--radius-xs, 2px);
+        background: var(--surface-primary-button, #009D4F);
+      }
+      .strengths-at-scale .section-header h2{ 
+        font-size: 20px;
+      }
+
     }
     footer div.footer commerce_builder-link-list dxp_base-text-block.footer-links-header h3, footer div.footer dxp_base-text-block.footer-links-header h4{
       font-family: 'aktiv-grotesk', sans-serif !important;
@@ -1099,3 +1141,36 @@ commerce_builder-link-list.utility-header div[slot='header']{
           max-width: 35%;
       }
   }
+    .strengths-at-scale .dxp-tab-bar-container {
+      border-bottom: none !important;
+    }
+    .strengths-at-scale .dxp-tab-container {
+      padding-top: 48px;
+    }
+    .strengths-at-scale .tab-header-text h1{
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 44px; 
+      color: #1e1e1e;
+    }
+    .strengths-at-scale .tab-text h4, .strengths-at-scale .tab-text p{
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.7;
+      color: var(--text-headings, #1A1A1A);
+    }
+    .strengths-at-scale .tab-button .slds-button {
+      height: 44px;
+      padding: var(--spacing-sm, 8px) var(--spacing-md, 16px);
+      border-radius: var(--radius-xs, 2px);
+      background: var(--surface-primary-button, #009D4F);
+    }
+
+    .strengths-at-scale .section-header h2{
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 46.5px; 
+    }
