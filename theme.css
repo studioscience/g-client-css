@@ -1007,3 +1007,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     .product-card-cart .number-input__input.c-commonNumberInput_commonNumberInput  {
       height: 44px;
     }
+
+    .strengths-at-scale .dxp-tab-bar-container {
+      border-bottom: none !important;
+    }
