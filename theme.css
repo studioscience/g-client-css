@@ -1120,7 +1120,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
   .checkout-editBtn {
       text-transform: uppercase;
       letter-spacing: 1.5px;
-      padding: 8px 48px;
       font-family: Aktiv Grotesk, -apple-system, Roboto, Helvetica, sans-serif;
       font-size: 11px;
   }
