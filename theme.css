@@ -1130,7 +1130,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       padding: 24px;
   }
 
-div[data-automation=title].title {
+div.title {
   padding-bottom: 0;
 }
   
