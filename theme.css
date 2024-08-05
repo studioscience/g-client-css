@@ -1131,7 +1131,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
   }
 
 header .title {
-  padding: none;
+  padding-bottom: none;
 }
   
   @media only screen and (min-width: 739px) {
