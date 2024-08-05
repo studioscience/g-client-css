@@ -1129,6 +1129,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
       border-radius: 6px;
       padding: 24px;
   }
+
+div[data-automation=title].title {
+  padding-bottom: 0;
+}
   
   @media only screen and (min-width: 739px) {
       
