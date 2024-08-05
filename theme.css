@@ -1130,8 +1130,8 @@ commerce_builder-link-list.utility-header div[slot='header']{
       padding: 24px;
   }
 
-commerce_unified_checkout-checkout-section-accordion header {
-  align-items: none;
+header .title {
+  padding: none;
 }
   
   @media only screen and (min-width: 739px) {
