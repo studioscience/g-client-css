@@ -1129,6 +1129,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
       border-radius: 6px;
       padding: 24px;
   }
+
+.lwc-7o1ub4rt5r {
+  align-items: none;
+}
   
   @media only screen and (min-width: 739px) {
       
