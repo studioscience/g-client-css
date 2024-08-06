@@ -1129,6 +1129,21 @@ commerce_builder-link-list.utility-header div[slot='header']{
       border-radius: 6px;
       padding: 24px;
   }
+
+  .checkout-section-header {
+    margin-bottom: 12px;
+  }
+
+  .checkout-section-header h3 {
+      font-weight: bold;
+      font-size: 16px;
+  }
+
+  .checkout-section-header a {
+      font-size: 14px;
+      text-decoration: underline;
+      padding: 0 8px;
+  }
   
   @media only screen and (min-width: 739px) {
       
