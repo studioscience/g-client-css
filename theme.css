@@ -1096,7 +1096,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       font-weight: bolder;
   }
 
-.checkout-header {
+/* .checkout-header {
   border-bottom: none;
 }
   
@@ -1105,7 +1105,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       font: 300 28px/157% Aktiv Grotesk, -apple-system, Roboto, Helvetica, sans-serif;
       border-bottom: none;
       padding-bottom: 24px;
-  }
+  } */
   
   .checkout-subhead h3 {
       color: #000;
