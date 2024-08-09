@@ -1099,7 +1099,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
   .checkout-header h2 {
       color: var(--Black-900, #121212);
       font: 300 28px/157% Aktiv Grotesk, -apple-system, Roboto, Helvetica, sans-serif;
-/*       border-bottom: 1px #E0E0E0 solid; */
+      border-bottom: none;
       padding-bottom: 24px;
   }
   
