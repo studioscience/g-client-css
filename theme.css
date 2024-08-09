@@ -1139,6 +1139,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
     align-items: center;
 }
 
+.checkout-section-header .slds-button:focus {
+  box-shadow: none;
+}
+
   .checkout-section-header h3 {
       font-weight: bold;
       font-size: 16px;
