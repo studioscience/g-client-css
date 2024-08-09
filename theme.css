@@ -1166,7 +1166,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
 .section-bottom-border {
     border-bottom: 1px solid #E0E0E0;
-    padding: 12px 0;
+/*     padding: 12px 0; */
   }
 
   @media only screen and (min-width: 739px) {
