@@ -1135,7 +1135,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
   }
 
 .checkout-section-header {
-    margin-bottom: 12px;
     display: flex;
     align-items: center;
 }
