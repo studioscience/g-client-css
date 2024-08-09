@@ -1138,7 +1138,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     margin-bottom: 12px;
   }
 
-  .checkout-section-header h3 {
+  .checkout-section-header h3, .checkout-section-header_no-edit h3 {
       font-weight: bold;
       font-size: 16px;
   }
