@@ -1174,6 +1174,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
     padding-bottom: 24px;
   }
 
+  .slds-button:focus {
+    box-shadow: none;
+  }
+
   @media only screen and (min-width: 739px) {
       
       .btn-most-popular {
