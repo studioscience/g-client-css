@@ -1149,6 +1149,16 @@ commerce_builder-link-list.utility-header div[slot='header']{
       padding: 0 8px;
   }
 
+.section-border {
+    border-top: 1px solid #E0E0E0;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 12px 0;
+}
+.section-bottom-border {
+    border-bottom: 1px solid #E0E0E0;
+    padding: 12px 0;
+}
+
   
   @media only screen and (min-width: 739px) {
       
