@@ -1149,6 +1149,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
       padding: 0 8px;
   }
 
+.checkout-section-header_no-edit {
+  padding-bottom: 24px;
+}
+
 .section-border {
     border-top: 1px solid #E0E0E0;
     border-bottom: 1px solid #E0E0E0;
