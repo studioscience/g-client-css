@@ -1095,6 +1095,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
   .custom-product-pricing {
       font-weight: bolder;
   }
+
+.checkout-header {
+  border-bottom: none;
+}
   
   .checkout-header h2 {
       color: var(--Black-900, #121212);
