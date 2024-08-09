@@ -1138,7 +1138,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     margin-bottom: 12px;
   }
 
-  .checkout-section-header h3, .checkout-section-header_no-edit h3 {
+  .checkout-section-header h3 {
       font-weight: bold;
       font-size: 16px;
   }
@@ -1149,21 +1149,26 @@ commerce_builder-link-list.utility-header div[slot='header']{
       padding: 0 8px;
   }
 
-.checkout-section-header_no-edit {
-  padding-bottom: 24px;
-}
+  .checkout-section-header_no-edit {
+    padding-bottom: 24px;
+  }
 
-.section-border {
+  .checkout-section-header_no-edit h3 {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  .section-border {
     border-top: 1px solid #E0E0E0;
     border-bottom: 1px solid #E0E0E0;
     padding: 12px 0;
-}
+  }
+
 .section-bottom-border {
     border-bottom: 1px solid #E0E0E0;
     padding: 12px 0;
-}
+  }
 
-  
   @media only screen and (min-width: 739px) {
       
       .btn-most-popular {
