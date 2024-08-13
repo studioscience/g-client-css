@@ -1168,9 +1168,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
     padding-bottom: 24px;
   } */
 
-  .checkout-section-header_no-edit h3 {
+/*   .checkout-section-header h3 {
     font-weight: bold;
-    font-size: 16px;
+    font-size: 16px; */
+    padding-bottom: 12px;
   }
 
   .section-border {
