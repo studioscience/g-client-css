@@ -1147,7 +1147,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
 .checkout-section-header {
     display: flex;
     align-items: center;
-    padding-bottom: 12px;
 }
 
 .checkout-section-header .slds-button:focus {
