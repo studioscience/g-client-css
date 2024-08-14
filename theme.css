@@ -856,11 +856,11 @@ commerce_builder-link-list.utility-header div[slot='header']{
       padding-bottom: 8px;
     }
 
-    commerce_cart-badge > span {
+    commerce_cart-badge span.cart-container {
       position: relative;
     }
 
-    commerce_cart-badget > span > a {
+    commerce_cart-badget span.cart-container a {
       position: absolute;
       width: 20px;
       top: -16px;
