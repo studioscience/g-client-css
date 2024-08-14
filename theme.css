@@ -856,6 +856,17 @@ commerce_builder-link-list.utility-header div[slot='header']{
       padding-bottom: 8px;
     }
 
+    commerce_cart-badge > span {
+      position: relative;
+    }
+
+    commerce_cart-badget > span > a {
+      position: absolute;
+      width: 20px;
+      top: -16px;
+      left: -18px;
+    }
+
 
     /* CTA Tiles */
 
