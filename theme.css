@@ -1192,6 +1192,12 @@ commerce_builder-link-list.utility-header div[slot='header']{
       font-weight: bold;
   }
 
+.list-badge_image-overlay {
+    position: absolute;
+    margin-top: -55px;
+    right: 0;
+}
+
   @media only screen and (min-width: 739px) {
       
       .btn-most-popular {
