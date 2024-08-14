@@ -1194,8 +1194,15 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
 .list-badge_image-overlay {
     position: absolute;
-    margin-top: -55px;
-    right: 0;
+    margin-top: -90px;
+    right: 1rem;
+    background: #fff;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
   @media only screen and (min-width: 739px) {
