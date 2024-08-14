@@ -860,8 +860,9 @@ commerce_builder-link-list.utility-header div[slot='header']{
       position: relative;
     }
 
-    commerce_cart-badget span.cart-container a {
+    commerce_cart-badge span.cart-container > a {
       position: absolute;
+      display: block;
       width: 20px;
       top: -16px;
       left: -18px;
