@@ -1210,6 +1210,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
   fill: #000;
 }
 
+.order-review-access-btn {
+    font-size: 11px;
+}
+
   @media only screen and (min-width: 739px) {
       
       .btn-most-popular {
