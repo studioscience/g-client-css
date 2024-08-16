@@ -1192,7 +1192,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       font-weight: bold;
   }
 
-.list-badge_image-overlay {
+/* .list-badge_image-overlay {
     position: absolute;
     margin-top: -90px;
     right: 1rem;
@@ -1204,11 +1204,11 @@ commerce_builder-link-list.utility-header div[slot='header']{
     align-items: center;
     justify-content: center;
     
-}
+} */
 
-.list-badge_image-overlay svg {
+/* .list-badge_image-overlay svg {
   fill: #000;
-}
+} */
 
 .order-review-access-btn {
     font-size: 11px;
