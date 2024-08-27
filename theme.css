@@ -12,6 +12,10 @@
   --dxp-s-text-heading-medium-font-family: 'aktiv-grotesk', sans-serif;
 }
 
+.cart-summary-info-container {
+  color: red;
+}
+
 .text-standard{
   font-family: 'aktiv-grotesk', sans-serif !important;
   font-style: normal;
