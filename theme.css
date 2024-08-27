@@ -12,8 +12,9 @@
   --dxp-s-text-heading-medium-font-family: 'aktiv-grotesk', sans-serif;
 }
 
-.cart-checkout-btn {
-  max-width: 290px !important;
+.cart-page-summary .slds-button.slds-button_brand.slds-button_stretch {
+  max-width: 270px;
+  padding: 8px;
 }
 
 .text-standard{
