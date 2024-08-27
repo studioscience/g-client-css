@@ -1233,6 +1233,20 @@ commerce_builder-link-list.utility-header div[slot='header']{
         color: red;
       }
   }
+
+@media screen and (max-width: 767px) {
+    .category-columns div.column-content, .category-columns div.interactions-region {
+        flex-direction: column;
+        gap: 24px;
+        width: 100vw;
+        overflow: scroll;
+    }
+}
+
+
+
+
+
     .strengths-at-scale .dxp-tab-bar-container {
       border-bottom: none !important;
     }
