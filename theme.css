@@ -1237,9 +1237,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
 @media screen and (max-width: 767px) {
     .category-columns div.column-content, .category-columns div.interactions-region {
         flex-direction: column;
-        gap: 24px;
-        width: 100vw;
-        overflow: scroll;
     }
 }
 
