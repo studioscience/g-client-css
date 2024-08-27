@@ -568,10 +568,19 @@ commerce_builder-link-list.utility-header div[slot='header']{
       }
 
       .category-columns div.column-content, .category-columns div.interactions-region{
-/*         flex-direction: row; */
+        flex-direction: row;
         gap: 24px;
         width: 100vw;
         overflow: scroll;
+      }
+
+      @media only screen and (max-width: 767px) {
+        .category-columns div.column-content, .category-columns div.interactions-region{
+          flex-direction: column;
+          gap: 0;
+          width: 100%;
+          overflow: hidden;
+        }
       }
 
       .product-grid .slds-grid.slds-wrap {
