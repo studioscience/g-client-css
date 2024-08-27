@@ -1228,8 +1228,9 @@ commerce_builder-link-list.utility-header div[slot='header']{
           max-width: 35%;
       }
 
-      .category-columns {
-          max-width: 100%;
+      .categories-container .category-columns {
+          flex-direction: column;
+        color: red;
       }
   }
     .strengths-at-scale .dxp-tab-bar-container {
