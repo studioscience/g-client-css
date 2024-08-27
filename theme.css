@@ -13,7 +13,7 @@
 }
 
 .cart-page-summary .slds-button.slds-button_brand.slds-button_stretch {
-  max-width: 270px;
+  max-width: 290px;
   padding: 8px;
 }
 
@@ -353,9 +353,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
     .category-columns div.column-content, .category-columns div.interactions-region img {
       max-height: 168px;
-    }
-
-      
+    }      
   }
 
     @media screen and (max-width: 767px){
@@ -631,28 +629,19 @@ commerce_builder-link-list.utility-header div[slot='header']{
         font-size: 20px;
       }
 
-
-
-
-        .category-columns div.column-content, .category-columns div.interactions-region {
-          flex-direction: column;
-/*           gap: 0;
-          width: 100%; */
-/*           overflow: hidden; */
-        }
-
-      .category-columns div.column-content, .category-columns div.interactions-region img {
-/*           min-height: 200px;
-          max-height: 200px;
-          width: 100%; */
-          background-repeat: no-repeat;
+      .cart-page-summary .slds-button.slds-button_brand.slds-button_stretch {
+        max-width: 270px;
       }
 
+      .category-columns div.column-content, .category-columns div.interactions-region {
+        flex-direction: column;
+      }
 
-
-      
-
+      .category-columns div.column-content, .category-columns div.interactions-region img {
+        background-repeat: no-repeat;
+      }
     }
+
     footer div.footer commerce_builder-link-list dxp_base-text-block.footer-links-header h3, footer div.footer dxp_base-text-block.footer-links-header h4{
       font-family: 'aktiv-grotesk', sans-serif !important;
       color: #1A1A1A;
