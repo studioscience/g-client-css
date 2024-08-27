@@ -1227,6 +1227,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
       .btn-hero-explore {
           max-width: 35%;
       }
+
+      .category-columns {
+          max-width: 100%;
+      }
   }
     .strengths-at-scale .dxp-tab-bar-container {
       border-bottom: none !important;
