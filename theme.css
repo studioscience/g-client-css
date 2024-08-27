@@ -568,7 +568,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       }
 
       .category-columns div.column-content, .category-columns div.interactions-region{
-        flex-direction: row;
+/*         flex-direction: row; */
         gap: 24px;
         width: 100vw;
         overflow: scroll;
@@ -1233,12 +1233,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
         color: red;
       }
   }
-
-@media screen and (max-width: 767px) {
-    .category-columns div.column-content {
-        flex-direction: column;
-    }
-}
 
 
 
