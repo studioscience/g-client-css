@@ -340,6 +340,13 @@ commerce_builder-link-list.utility-header div[slot='header']{
         font-weight: 400;
         line-height: 20px;
     }
+
+    .category-columns div.column-content, .category-columns div.interactions-region {
+        flex-direction: row;
+        gap: 24px;
+        width: 100vw;
+        overflow: scroll;
+      }
     }
 
     @media screen and (max-width: 767px){
@@ -566,39 +573,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
         font-weight: 400;
         line-height: 20px;
       }
-
-
-
-
-
       
-
-        .category-columns div.column-content, .category-columns div.interactions-region {
-          flex-direction: row;
-          gap: 24px;
-          width: 100vw;
-          overflow: scroll;
-        }
-
-
-        .category-columns div.column-content, .category-columns div.interactions-region {
-          flex-direction: column;
-          gap: 0;
-          width: 100%;
-          overflow: hidden;
-        }
-
-      .category-columns div.column-content, .category-columns div.interactions-region img {
-          min-height: 200px;
-          max-height: 200px;
-          width: 100%;
-          background-repeat: no-repeat;
-      }
-
-
-
-      
-
       .product-grid .slds-grid.slds-wrap {
         width: 100vw;
         overflow: scroll;
@@ -646,6 +621,27 @@ commerce_builder-link-list.utility-header div[slot='header']{
       .strengths-at-scale .section-header h2{ 
         font-size: 20px;
       }
+
+
+
+
+        .category-columns div.column-content, .category-columns div.interactions-region {
+          flex-direction: column;
+          gap: 0;
+          width: 100%;
+          overflow: hidden;
+        }
+
+      .category-columns div.column-content, .category-columns div.interactions-region img {
+          min-height: 200px;
+          max-height: 200px;
+          width: 100%;
+          background-repeat: no-repeat;
+      }
+
+
+
+      
 
     }
     footer div.footer commerce_builder-link-list dxp_base-text-block.footer-links-header h3, footer div.footer dxp_base-text-block.footer-links-header h4{
