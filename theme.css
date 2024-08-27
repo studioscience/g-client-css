@@ -627,15 +627,15 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
         .category-columns div.column-content, .category-columns div.interactions-region {
           flex-direction: column;
-          gap: 0;
-          width: 100%;
+/*           gap: 0;
+          width: 100%; */
 /*           overflow: hidden; */
         }
 
       .category-columns div.column-content, .category-columns div.interactions-region img {
-          min-height: 200px;
+/*           min-height: 200px;
           max-height: 200px;
-          width: 100%;
+          width: 100%; */
           background-repeat: no-repeat;
       }
 
