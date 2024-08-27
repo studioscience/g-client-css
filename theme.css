@@ -290,6 +290,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     div[name='header'] div.header-account, div[name='header'] div.header-wishlist{
       margin-right: 24px;
     }
+
     @media screen and (min-width:768px){
       div[name='header'] div.header-badge-icons{
         right: 80px !important;
@@ -350,7 +351,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     }
 
       
-    }
+  }
 
     @media screen and (max-width: 767px){
 
