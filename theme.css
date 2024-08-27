@@ -629,7 +629,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
           flex-direction: column;
           gap: 0;
           width: 100%;
-          overflow: hidden;
+/*           overflow: hidden; */
         }
 
       .category-columns div.column-content, .category-columns div.interactions-region img {
