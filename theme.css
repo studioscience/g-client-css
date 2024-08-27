@@ -12,7 +12,11 @@
   --dxp-s-text-heading-medium-font-family: 'aktiv-grotesk', sans-serif;
 }
 
-.section-border-top {
+/* .section-border-top {
+  border-top: 1px solid #e0e0e0;
+} */
+
+ul.slds-p-vertical_small {
   border-top: 1px solid #e0e0e0;
 }
 
