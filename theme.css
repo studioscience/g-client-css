@@ -13,7 +13,7 @@
 }
 
 .cart-checkout-btn {
-  max-width: 290px;
+  max-width: 290px !important;
 }
 
 .text-standard{
