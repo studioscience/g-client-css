@@ -18,6 +18,7 @@
 
 ul.slds-p-vertical_small {
   border-top: 1px solid #e0e0e0;
+  padding-top: 0;
 }
 
 .cart-page-summary .slds-button.slds-button_brand.slds-button_stretch {
