@@ -12,8 +12,8 @@
   --dxp-s-text-heading-medium-font-family: 'aktiv-grotesk', sans-serif;
 }
 
-.cart-summary-info-container {
-  border: 1px solid #e0e0e0;
+.cart-checkout-btn {
+  max-width: 290px;
 }
 
 .text-standard{
