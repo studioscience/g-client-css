@@ -346,7 +346,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     }
 
     .category-columns div.column-content, .category-columns div.interactions-region img {
-        max-width: 240px;
+/*         max-width: 240px; */
     }
 
       
