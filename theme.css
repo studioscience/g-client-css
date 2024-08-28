@@ -16,10 +16,6 @@
   border-top: 1px solid #e0e0e0;
 } */
 
-.category-card-container lightning-layout.slds-grid {
-  align-items: normal;
-}
-
 .category-card-container lightning-layout.slds-grid img {
   max-height: 172px;
 /*   border-bottom-left-radius: 0;
@@ -382,6 +378,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
         max-height: auto;
         border-bottom-left-radius: 0 !important;
         border-top-left-radius: 0 !important;
+      }
+
+      .category-card-container lightning-layout.slds-grid {
+        align-items: center;
       }
       
 
