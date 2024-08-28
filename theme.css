@@ -378,11 +378,15 @@ commerce_builder-link-list.utility-header div[slot='header']{
       .c-productQuantityAdd_productQuantityAdd.c-commonButton_commonButton-host {
         justify-content: center;
         display: block;
+        justify-content: center;
+        display: flex;
       }
 
       .c-commonNumberInput_commonNumberInput.slds-input.number-input__input {
         min-width: 200px;
         display: block;
+        justify-content: center;
+        display: flex;
       }
     }
 
@@ -392,11 +396,15 @@ commerce_builder-link-list.utility-header div[slot='header']{
       .c-productQuantityAdd_productQuantityAdd.c-commonButton_commonButton-host {
         justify-content: center;
         display: block;
+        justify-content: center;
+        display: flex;
       }
 
       .c-commonNumberInput_commonNumberInput.slds-input.number-input__input {
         min-width: 200px;
         display: block;
+        justify-content: center;
+        display: flex;
       }
 
       .category-card-container lightning-layout.slds-grid img {
