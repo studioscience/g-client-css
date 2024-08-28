@@ -314,6 +314,11 @@ commerce_builder-link-list.utility-header div[slot='header']{
     }
 
     @media screen and (min-width:768px){
+
+      .category-card-container lightning-layout.slds-grid img {
+        max-height: 172px;
+      }
+      
       div[name='header'] div.header-badge-icons{
         right: 80px !important;
         top: 16px !important;
