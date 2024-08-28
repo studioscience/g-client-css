@@ -374,6 +374,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
     @media screen and (max-width: 767px){
 
+      .c-productQuantityAdd_productQuantityAdd.c-commonButton_commonButton-host {
+        justify-content: center;
+      }
+
       .category-card-container lightning-layout.slds-grid img {
         max-height: auto;
         border-bottom-left-radius: 0 !important;
@@ -383,7 +387,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
       .category-card-container lightning-layout.slds-grid {
         align-items: center;
       }
-      
+
+      .c-productQuantityAdd_productQuantityAdd.slds-size_6-of-12 {
+        width: 100%;
+      }
 
       .faq-section-header div.cb-outputRichText-container, .faq-main-header div.cb-outputRichText-container{
         padding-left: 12px;
