@@ -16,6 +16,11 @@
   border-top: 1px solid #e0e0e0;
 } */
 
+c-x-studio_-category-card div {
+  max-height: 172px;
+  overflow: hidden;
+}
+
 ul.slds-p-vertical_small {
   border-top: 1px solid #e0e0e0;
   padding-top: 0;
