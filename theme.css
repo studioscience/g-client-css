@@ -17,7 +17,7 @@
 } */
 
 .category-card-container lightning-layout.slds-grid {
-  align: center;
+  align-items: center;
 }
 
 ul.slds-p-vertical_small {
