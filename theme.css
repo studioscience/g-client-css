@@ -315,12 +315,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
     @media screen and (min-width:768px){
 
-      .category-card-container lightning-layout.slds-grid img {
-        max-height: 172px;
-        border-bottom-left-radius: none;
-        border-top-left-radius: none;
-      }
-      
       div[name='header'] div.header-badge-icons{
         right: 80px !important;
         top: 16px !important;
@@ -381,6 +375,13 @@ commerce_builder-link-list.utility-header div[slot='header']{
   }
 
     @media screen and (max-width: 767px){
+
+      .category-card-container lightning-layout.slds-grid img {
+        max-height: 172px;
+        border-bottom-left-radius: none;
+        border-top-left-radius: none;
+      }
+      
 
       .faq-section-header div.cb-outputRichText-container, .faq-main-header div.cb-outputRichText-container{
         padding-left: 12px;
