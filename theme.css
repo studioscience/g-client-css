@@ -378,6 +378,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
         justify-content: center;
       }
 
+      .c-commonNumberInput_commonNumberInput.slds-input.number-input__input {
+        min-width: 200px;
+      }
+
       .category-card-container lightning-layout.slds-grid img {
         max-height: auto;
         border-bottom-left-radius: 0 !important;
