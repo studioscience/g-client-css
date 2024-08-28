@@ -21,7 +21,7 @@
 }
 
 .category-card-container lightning-layout.slds-grid img {
-  height: auto !important;
+  max-height: 172px;
 }
 
 ul.slds-p-vertical_small {
@@ -377,7 +377,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     @media screen and (max-width: 767px){
 
       .category-card-container lightning-layout.slds-grid img {
-        max-height: 172px;
+        max-height: auto;
         border-bottom-left-radius: none;
         border-top-left-radius: none;
       }
