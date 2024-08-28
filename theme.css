@@ -16,9 +16,8 @@
   border-top: 1px solid #e0e0e0;
 } */
 
-#xStudio_CategoryCard-4ad2 div {
-  max-height: 172px;
-  overflow: hidden;
+.category-card-container lightning-layout.slds-grid {
+  align: center;
 }
 
 ul.slds-p-vertical_small {
