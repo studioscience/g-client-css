@@ -377,23 +377,27 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
       .c-productQuantityAdd_productQuantityAdd.c-commonButton_commonButton-host {
         justify-content: center;
+        display: block;
       }
 
       .c-commonNumberInput_commonNumberInput.slds-input.number-input__input {
         min-width: 200px;
+        display: block;
       }
     }
 
 
     @media screen and (max-width: 767px){
 
-/*       .c-productQuantityAdd_productQuantityAdd.c-commonButton_commonButton-host {
+      .c-productQuantityAdd_productQuantityAdd.c-commonButton_commonButton-host {
         justify-content: center;
+        display: block;
       }
 
       .c-commonNumberInput_commonNumberInput.slds-input.number-input__input {
         min-width: 200px;
-      } */
+        display: block;
+      }
 
       .category-card-container lightning-layout.slds-grid img {
         max-height: auto;
