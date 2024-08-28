@@ -372,7 +372,8 @@ commerce_builder-link-list.utility-header div[slot='header']{
     }      
   }
 
-    @media screen and (max-width: 767px){
+
+    @media screen and (max-width: 480px){
 
       .c-productQuantityAdd_productQuantityAdd.c-commonButton_commonButton-host {
         justify-content: center;
@@ -381,6 +382,18 @@ commerce_builder-link-list.utility-header div[slot='header']{
       .c-commonNumberInput_commonNumberInput.slds-input.number-input__input {
         min-width: 200px;
       }
+    }
+
+
+    @media screen and (max-width: 767px){
+
+/*       .c-productQuantityAdd_productQuantityAdd.c-commonButton_commonButton-host {
+        justify-content: center;
+      }
+
+      .c-commonNumberInput_commonNumberInput.slds-input.number-input__input {
+        min-width: 200px;
+      } */
 
       .category-card-container lightning-layout.slds-grid img {
         max-height: auto;
