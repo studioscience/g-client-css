@@ -18,6 +18,8 @@
 
 .category-card-container lightning-layout.slds-grid {
   align-items: normal;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
 }
 
 .category-card-container lightning-layout.slds-grid img {
