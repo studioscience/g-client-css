@@ -378,7 +378,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     }
 
 
-    @media screen and (max-width: 767px){
+    @media screen and (max-width: 767px) {
 
 /*       .c-productQuantityAdd_productQuantityAdd.c-commonButton_commonButton-host {
         justify-content: center;
@@ -393,12 +393,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
         justify-content: center;
         display: flex;
       } */
-
-      .product-grid.popular-reports .slds-grid.slds-wrap, .product-grid.best-selling-books .slds-grid.slds-wrap {
-        width: 100%;
-        overflow: hidden;
-        flex-wrap: wrap;
-      }
 
       .category-card-container lightning-layout.slds-grid img {
         max-height: auto;
@@ -695,6 +689,12 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
       .category-columns div.column-content, .category-columns div.interactions-region img {
         background-repeat: no-repeat;
+      }
+
+      .product-grid.popular-reports .slds-grid.slds-wrap, .product-grid.best-selling-books .slds-grid.slds-wrap {
+        width: 100%;
+        overflow: hidden;
+        flex-wrap: wrap;
       }
     }
 
