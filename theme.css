@@ -632,7 +632,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       }
       
       .product-grid .slds-grid.slds-wrap {
-        width: 100vw;
+        width: 100%;
         overflow: scroll;
         flex-wrap: nowrap;
       }
