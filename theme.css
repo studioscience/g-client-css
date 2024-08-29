@@ -631,11 +631,11 @@ commerce_builder-link-list.utility-header div[slot='header']{
         line-height: 20px;
       }
       
-      .product-grid .slds-grid.slds-wrap {
+/*       .product-grid .slds-grid.slds-wrap {
         width: 100%;
         overflow: scroll;
         flex-wrap: nowrap;
-      }
+      } */
 
       /*Quantity Selector column*/
       .product-card-cart div.columns {
