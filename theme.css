@@ -394,7 +394,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
         display: flex;
       } */
 
-      .product-grid.popular-reports .slds-grid.slds-wrap {
+      .product-grid.popular-reports .slds-grid.slds-wrap, .product-grid.best-selling-books .slds-grid.slds-wrap {
         width: 100%;
         overflow: hidden;
         flex-wrap: wrap;
