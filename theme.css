@@ -394,6 +394,12 @@ commerce_builder-link-list.utility-header div[slot='header']{
         display: flex;
       } */
 
+      .popular-reports .product-grid .slds-grid.slds-wrap {
+        width: 100%;
+        overflow: hidden;
+        flex-wrap: wrap;
+      }
+
       .category-card-container lightning-layout.slds-grid img {
         max-height: auto;
         border-bottom-left-radius: 0 !important;
@@ -636,14 +642,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
         overflow: scroll;
         flex-wrap: nowrap;
       }
-
-        .popular-reports .product-grid .slds-grid.slds-wrap {
-        width: 100%;
-        overflow: hidden;
-        flex-wrap: wrap;
-      }
-
-
 
       /*Quantity Selector column*/
       .product-card-cart div.columns {
