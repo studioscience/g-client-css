@@ -637,6 +637,14 @@ commerce_builder-link-list.utility-header div[slot='header']{
         flex-wrap: nowrap;
       }
 
+        .popular-reports .product-grid .slds-grid.slds-wrap {
+        width: 100%;
+        overflow: hidden;
+        flex-wrap: wrap;
+      }
+
+
+
       /*Quantity Selector column*/
       .product-card-cart div.columns {
         flex-direction: row !important;
