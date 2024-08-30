@@ -17,7 +17,7 @@
 } */
 
 .category-card-container lightning-layout.slds-grid img {
-  max-height: 172px;
+/*   max-height: 172px; */
 /*   border-bottom-left-radius: 0;
   border-top-left-radius: 0; */
 }
@@ -395,7 +395,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       } */
 
       .category-card-container lightning-layout.slds-grid img {
-        max-height: auto;
+/*         max-height: auto; */
         border-bottom-left-radius: 0 !important;
         border-top-left-radius: 0 !important;
       }
