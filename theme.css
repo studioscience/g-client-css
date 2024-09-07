@@ -379,35 +379,15 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
 
     @media screen and (max-width: 767px) {
-
-/*       .c-productQuantityAdd_productQuantityAdd.c-commonButton_commonButton-host {
-        justify-content: center;
-        display: block;
-        justify-content: center;
-        display: flex;
-      }
-
-      .c-commonNumberInput_commonNumberInput.slds-input.number-input__input {
-        min-width: 200px;
-        display: block;
-        justify-content: center;
-        display: flex;
-      } */
-
       .category-card-container lightning-layout.slds-grid img {
-/*         max-height: auto; */
         border-bottom-left-radius: 0 !important;
         border-top-left-radius: 0 !important;
-      }
+    }
 
       .category-card-container lightning-layout.slds-grid {
         align-items: center;
       }
-
-      .c-productQuantityAdd_productQuantityAdd.slds-size_6-of-12 {
-        width: 100%;
-      }
-
+      
       .faq-section-header div.cb-outputRichText-container, .faq-main-header div.cb-outputRichText-container{
         padding-left: 12px;
       }
