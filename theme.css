@@ -298,8 +298,8 @@ commerce_builder-link-list.utility-header div[slot='header']{
     div[name='header'] commerce_my_account-user-profile-menu lightning-icon lightning-primitive-icon svg, div[name='header'] commerce_cart-badge svg{
       color:black;
       fill: black;
-      height: 20px;
-      width: 20px;
+/*       height: 20px;
+      width: 20px; */
     }
 
     div[name='header'] commerce_builder-cart-badge span.cart-container, div[name='header'] commerce_builder-wishlist-shortcut div.wishlist-shortcut-wrapper {
