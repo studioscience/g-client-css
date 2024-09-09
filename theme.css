@@ -313,13 +313,14 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
     @media screen and (min-width:768px){
 
-      div[name='header'] div.header-badge-icons{
+/*       div[name='header'] div.header-badge-icons{
         right: 80px !important;
         top: 16px !important;
         align-items: center;
         height: 40px !important;
         position: absolute !important;
-      }
+      } */
+      
       .footer-links-columns {
         border-right: solid 1px #000;
         padding-right: 48px;
