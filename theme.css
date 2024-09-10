@@ -12,6 +12,10 @@
   --dxp-s-text-heading-medium-font-family: 'aktiv-grotesk', sans-serif;
 }
 
+.popular-products-container {
+  position: relative;
+}
+
 .commerce-product-data {
   max-width: 380px;
 }
