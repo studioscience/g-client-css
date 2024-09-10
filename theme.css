@@ -12,14 +12,8 @@
   --dxp-s-text-heading-medium-font-family: 'aktiv-grotesk', sans-serif;
 }
 
-/* .section-border-top {
-  border-top: 1px solid #e0e0e0;
-} */
-
-.category-card-container lightning-layout.slds-grid img {
-/*   max-height: 172px; */
-/*   border-bottom-left-radius: 0;
-  border-top-left-radius: 0; */
+.commerce-product-data {
+  max-width: 380px;
 }
 
 ul.slds-p-vertical_small {
