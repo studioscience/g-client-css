@@ -12,6 +12,10 @@
   --dxp-s-text-heading-medium-font-family: 'aktiv-grotesk', sans-serif;
 }
 
+.nav-section ul li:last-child {
+    position: absolute;
+}
+
 .popular-products-container {
   position: relative;
 }
