@@ -26,6 +26,14 @@
   text-align: left;
 }
 
+@media only screen and (max-width: 48em) {
+    table {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+    }
+}
+
 ul.slds-p-vertical_small {
   border-top: 1px solid #e0e0e0;
   padding-top: 0;
