@@ -16,8 +16,9 @@
   max-width: 380px;
 }
 
-.product-pricing-container table {
+.product-pricing-container table td {
   justify-content: left;
+  text-align: left;
 }
 
 ul.slds-p-vertical_small {
