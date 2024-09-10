@@ -16,6 +16,10 @@
   position: relative;
 }
 
+.popular-products-container .gallup-product-card {
+  margin: 0;
+}
+
 .commerce-product-data {
   max-width: 380px;
 }
