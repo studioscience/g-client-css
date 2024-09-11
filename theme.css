@@ -16,9 +16,9 @@ commerce_cart-mini-cart-panel {
   z-index: 1000;
 }
 
-.nav-section ul li:last-child {
+/* .nav-section ul li:last-child {
     position: absolute;
-}
+} */
 
 .popular-products-container {
   position: relative;
