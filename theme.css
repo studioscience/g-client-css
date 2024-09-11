@@ -12,6 +12,10 @@
   --dxp-s-text-heading-medium-font-family: 'aktiv-grotesk', sans-serif;
 }
 
+commerce_cart-mini-cart-panel {
+  z-index: 1000;
+}
+
 .nav-section ul li:last-child {
     position: absolute;
 }
