@@ -52,9 +52,9 @@ commerce_cart-mini-cart-panel {
     max-width: 380px;
   }
 
-  .pdp-img-gallery img {
+/*   .pdp-img-gallery img {
     max-height: 50% !important;
-}
+} */
 }
 
 @media only screen and (max-width: 48em) {
