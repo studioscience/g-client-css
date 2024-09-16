@@ -12,6 +12,11 @@
   --dxp-s-text-heading-medium-font-family: 'aktiv-grotesk', sans-serif;
 }
 
+.faq-accordion-container svg.slds-icon_x-small  {
+  width: 28px;
+  height: 28px;
+}
+
 commerce_cart-mini-cart-panel {
   z-index: 1000;
 }
@@ -451,11 +456,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
       /* .faq-accordion-container details div.content ul li {
         max-width: calc(100vw - 70px)
       } */
-
-      .faq-accordion-container svg.slds-icon_x-small  {
-        width: 28px;
-        height: 28px;
-      }
 
       .footer-links-columns{
         border-bottom: solid 1px #E0E0E0;
