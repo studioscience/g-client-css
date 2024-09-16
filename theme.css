@@ -452,6 +452,11 @@ commerce_builder-link-list.utility-header div[slot='header']{
         max-width: calc(100vw - 70px)
       } */
 
+      .faq-accordion-container svg {
+        width: 28px;
+        height: 28px;
+      }
+
       .footer-links-columns{
         border-bottom: solid 1px #E0E0E0;
         padding-bottom: 32px;
