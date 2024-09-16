@@ -824,13 +824,13 @@ commerce_builder-link-list.utility-header div[slot='header']{
       overflow:hidden !important;
     }
 
-    .faq-more-questions div.cb-outputRichText-container, .faq-contact-info div.cb-outputRichText-container{
+/*     .faq-more-questions div.cb-outputRichText-container, .faq-contact-info div.cb-outputRichText-container{
       margin-bottom: 80px;
-    }
+    } */
 
-    .faq-more-questions div.cb-outputRichText-container h2, .faq-contact-info div.cb-outputRichText-container h2{
+/*     .faq-more-questions div.cb-outputRichText-container h2, .faq-contact-info div.cb-outputRichText-container h2{
       margin-bottom: 40px;
-    }
+    } */
 
     .faq-accordion-header h3 {
       height: fit-content !important;
