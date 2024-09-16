@@ -12,7 +12,7 @@
   --dxp-s-text-heading-medium-font-family: 'aktiv-grotesk', sans-serif;
 }
 
-.faq-accordion-container svg.slds-icon_x-small  {
+.faq-accordion-container svg  {
   width: 1.5rem;
   height: 1.5rem;
 }
