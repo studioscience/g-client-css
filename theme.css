@@ -452,7 +452,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
         max-width: calc(100vw - 70px)
       } */
 
-      .faq-accordion-container svg {
+      .faq-accordion-container svg.slds-icon_x-small  {
         width: 28px;
         height: 28px;
       }
