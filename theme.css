@@ -351,23 +351,21 @@ commerce_builder-link-list.utility-header div[slot='header']{
     }
 
     @media (max-width: 480px) {
-    div[name='header'] commerce_my_account-user-profile-menu lightning-icon lightning-primitive-icon svg, div[name='header'] commerce_cart-badge svg {
-      height: 1.25rem;
-      width: 1.25rem;
+      div[name='header'] commerce_my_account-user-profile-menu lightning-icon lightning-primitive-icon svg, div[name='header'] commerce_cart-badge svg {
+        height: 1.25rem;
+        width: 1.25rem;
+      }
+  
+      div[name='header'] .wishlist-shortcut-wrapper .slds-icon_container svg.slds-icon {
+        height: 1.25rem;
+        width: 1.25rem;
+      }
+  
+      .globe svg {
+        height: 1.25rem;
+        width: 1.25rem;
+      }      
     }
-
-    div[name='header'] .wishlist-shortcut-wrapper .slds-icon_container svg.slds-icon {
-      height: 1.25rem;
-      width: 1.25rem;
-    }
-
-    div[name='header'] commerce-country-picker lightning-primitive-icon svg {
-      height: 1.25rem;
-      width: 1.25rem;
-    }
-
-      
-}
 
     div[name='header'] commerce_builder-cart-badge span.cart-container, div[name='header'] commerce_builder-wishlist-shortcut div.wishlist-shortcut-wrapper {
       line-height: 20px;
