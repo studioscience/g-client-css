@@ -356,7 +356,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       width: 1rem;
     }
 
-    div[name='header'] .wishlist-shortcut-wrapper lightning-icon lightning-primitive-icon svg {
+    div[name='header'] commerce-wishlist-shortcut slds-icon_container svg {
       height: 1.5rem;
       width: 1.5rem;
     }
