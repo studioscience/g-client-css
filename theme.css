@@ -350,6 +350,13 @@ commerce_builder-link-list.utility-header div[slot='header']{
       width: 2rem;
     }
 
+    @media (max-width: 480px) {
+    div[name='header'] commerce_my_account-user-profile-menu lightning-icon lightning-primitive-icon svg, div[name='header'] commerce_cart-badge svg {
+      height: 1rem;
+      width: 1rem;
+    }
+}
+
     div[name='header'] commerce_builder-cart-badge span.cart-container, div[name='header'] commerce_builder-wishlist-shortcut div.wishlist-shortcut-wrapper {
       line-height: 20px;
       padding:0;
