@@ -355,6 +355,11 @@ commerce_builder-link-list.utility-header div[slot='header']{
       height: 1rem;
       width: 1rem;
     }
+
+    div[name='header'] .wishlist-shortcut-wrapper lightning-icon lightning-primitive-icon svg {
+      height: 1.5rem;
+      width: 1.5rem;
+    }
 }
 
     div[name='header'] commerce_builder-cart-badge span.cart-container, div[name='header'] commerce_builder-wishlist-shortcut div.wishlist-shortcut-wrapper {
