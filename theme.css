@@ -21,10 +21,6 @@ commerce_cart-mini-cart-panel {
   z-index: 1000;
 }
 
-/* .nav-section ul li:last-child {
-    position: absolute;
-} */
-
 .popular-products-container {
   position: relative;
 }
@@ -1234,17 +1230,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
   .custom-product-pricing {
       font-weight: bolder;
   }
-
-/* .checkout-header {
-  border-bottom: none;
-}
-  
-  .checkout-header h2 {
-      color: var(--Black-900, #121212);
-      font: 300 28px/157% Aktiv Grotesk, -apple-system, Roboto, Helvetica, sans-serif;
-      border-bottom: none;
-      padding-bottom: 24px;
-  } */
   
   .checkout-subhead h3 {
       color: #000;
