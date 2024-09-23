@@ -29,10 +29,6 @@ commerce_cart-mini-cart-panel {
   margin: 0;
 }
 
-.commerce-product-data {
-  max-width: 380px;
-}
-
 .product-pricing-container table {
   justify-content: left;
   text-align: left;
