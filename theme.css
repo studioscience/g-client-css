@@ -48,13 +48,7 @@ commerce_cart-mini-cart-panel {
     align-items: center;
     max-width: 380px;
   }
-
-/*   .pdp-img-gallery .thumbnail-container img {
-    max-height: 50% !important;
-} */
 }
-
-
 
 @media only screen and (max-width: 48em) {
     table {
@@ -138,8 +132,6 @@ commerce-my-account-password header {
 
 @media (min-width: 64.0625em) {
 
-
-  
   b2c_lite_commerce-my-account-profile,
   b2c_lite_commerce-my-account-password,
   commerce-my-account-profile,
