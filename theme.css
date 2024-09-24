@@ -794,7 +794,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
     commerce_builder-layout-footer.commerce-footer {
       padding-top: 48px;
       padding-bottom: 24px;
-      border-top: solid 4px #009D4F;
+/*       border-top: solid 4px #009D4F; */
       background-color: #FFFFFF;
     }
 
