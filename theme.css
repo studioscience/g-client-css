@@ -49,9 +49,13 @@ commerce_cart-mini-cart-panel {
     max-width: 380px;
   }
 
-/*   .pdp-img-gallery img {
+/*   .pdp-img-gallery .thumbnail-container img {
     max-height: 50% !important;
 } */
+}
+
+.pdp-img-gallery .thumbnail-container {
+  poition: relative;
 }
 
 @media only screen and (max-width: 48em) {
