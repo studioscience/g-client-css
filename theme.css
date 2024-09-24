@@ -54,9 +54,7 @@ commerce_cart-mini-cart-panel {
 } */
 }
 
-.pdp-img-gallery .thumbnail-container {
-  poition: relative;
-}
+
 
 @media only screen and (max-width: 48em) {
     table {
@@ -139,6 +137,9 @@ commerce-my-account-password header {
 }
 
 @media (min-width: 64.0625em) {
+
+
+  
   b2c_lite_commerce-my-account-profile,
   b2c_lite_commerce-my-account-password,
   commerce-my-account-profile,
@@ -368,6 +369,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
     }
 
     @media screen and (min-width:768px){
+
+      .pdp-img-gallery .thumbnail-container {
+        poition: relative !important;
+      }
 
 /*       div[name='header'] div.header-badge-icons{
         right: 80px !important;
