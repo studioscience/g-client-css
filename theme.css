@@ -12,7 +12,7 @@
   --dxp-s-text-heading-medium-font-family: 'aktiv-grotesk', sans-serif;
 }
 
-      .theme-link slot[name='contentRegion'] h4 {
+      .theme-link h4 {
           color: #009D4F;
       }
 
