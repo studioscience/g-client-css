@@ -12,6 +12,10 @@
   --dxp-s-text-heading-medium-font-family: 'aktiv-grotesk', sans-serif;
 }
 
+      .theme-link slot[name='contentRegion'] h4 {
+          color: #009D4F;
+      }
+
 .faq-accordion-container svg  {
   width: 1.5rem;
   height: 1.5rem;
@@ -661,6 +665,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
         font-weight: 400;
         line-height: 20px;
       }
+
+      .theme-link slot[name='contentRegion'] h4 {
+          color: #009D4F;
+      }
       
       .product-grid .slds-grid.slds-wrap {
         width: 100vw;
@@ -989,10 +997,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
     slot[name='imageRegion'] .fa-solid img {
       display: none;
-    }
-
-    .theme-link slot[name='contentRegion'] h4 {
-        color: #009D4F;
     }
     
     .cta-callout {
