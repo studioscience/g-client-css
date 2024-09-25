@@ -990,9 +990,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
     slot[name='imageRegion'] .fa-solid img {
       display: none;
     }
-/*     slot[name='contentRegion'] h4 {
-        min-height:69px;
-    } */
+
+    .theme-link slot[name='contentRegion'] h4 {
+        color: #009D4F;
+    }
     
     .cta-callout {
       margin-bottom: 0;
