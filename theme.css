@@ -12,9 +12,20 @@
   --dxp-s-text-heading-medium-font-family: 'aktiv-grotesk', sans-serif;
 }
 
-      .theme-link h4 {
-          color: #009D4F;
-      }
+.mobile-menu-btn  .slds-button_icon {
+    outline: none;
+    border: none;
+}
+
+.mobile-menu-btn  .slds-button_icon:focus,
+.mobile-menu-btn  .slds-button_icon:active {
+    outline: none;
+    border: none;
+}
+
+.theme-link h4 {
+  color: #009D4F;
+}
 
 .faq-accordion-container svg  {
   width: 1.5rem;
