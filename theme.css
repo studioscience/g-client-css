@@ -449,12 +449,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
     }      
   }
 
-
-    @media screen and (max-width: 480px){
-
-    }
-
-
     @media screen and (max-width: 767px) {
       .category-card-container lightning-layout.slds-grid img {
         border-bottom-left-radius: 0 !important;
