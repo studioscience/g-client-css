@@ -355,6 +355,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
       width: 2rem;
     }
 
+      .learning-tools-card-container .atc-btn-con {
+        justify-content: center;
+      }
+
     @media (max-width: 480px) {
 
       .learning-tools-card-container .atc-btn-con {
