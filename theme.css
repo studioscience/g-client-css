@@ -17,6 +17,10 @@
   width: 100%
 }
 
+.learning-tools-card-container .atc-btn-con {
+  justify-content: center;
+}
+
 .mobile-menu-btn button {
   outline: none !important;
   box-shadow: none !important;
