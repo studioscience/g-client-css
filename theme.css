@@ -29,6 +29,15 @@
   justify-content: left;
 }
 
+@media only screen and (max-width: 48em) {
+.ppd-table commerce-product-pricing-details table tr td, 
+.ppd-table commerce-product-pricing-details table tr td {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+    }
+}
+
 .theme-link h4 {
   color: #009D4F;
 }
@@ -69,14 +78,6 @@ commerce_cart-mini-cart-panel {
     align-items: center;
     max-width: 380px;
   }
-}
-
-@media only screen and (max-width: 48em) {
-    table {
-        width: 100%;
-        display: flex;
-        justify-content: left;
-    }
 }
 
 ul.slds-p-vertical_small {
