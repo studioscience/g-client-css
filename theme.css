@@ -24,7 +24,7 @@
   border: none !important;
 }
 
-.ppd-table commerce-product-pricing-details table tr td, .ppd-table commerce-product-pricing-details table tr td {
+.ppd-table table tr td, .ppd-table table tr td {
   text-align: left;
   justify-content: left;
 }
