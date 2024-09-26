@@ -12,7 +12,7 @@
   --dxp-s-text-heading-medium-font-family: 'aktiv-grotesk', sans-serif;
 }
 
-.learning-tools-card-container .learning-tools-card-container dxp-grid-item {
+.learning-tools-card-container dxp-grid-item {
   padding:0;
 }
 
