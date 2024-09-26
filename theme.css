@@ -12,8 +12,9 @@
   --dxp-s-text-heading-medium-font-family: 'aktiv-grotesk', sans-serif;
 }
 
-.learning-tools-card-container dxp-grid-item {
-  padding:0;
+.learning-tools-card-container .qty-container,
+.learning-tools-card-container .atc-container {
+  width: 100%
 }
 
 .mobile-menu-btn button {
