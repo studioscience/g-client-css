@@ -385,16 +385,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
         height: 40px !important;
         position: absolute !important;
       } */
-
-      .learning-tools-card-container .qty-container,
-      .learning-tools-card-container .atc-container {
-        width: 100%
-      }
-      
-      .learning-tools-card-container .atc-btn-con {
-        justify-content: center;
-        margin-top: 5px;
-      }
       
       .footer-links-columns {
         border-right: solid 1px #000;
@@ -450,6 +440,17 @@ commerce_builder-link-list.utility-header div[slot='header']{
   }
 
     @media screen and (max-width: 767px) {
+
+      .learning-tools-card-container .qty-container,
+      .learning-tools-card-container .atc-container {
+        width: 100%
+      }
+      
+      .learning-tools-card-container .atc-btn-con {
+        justify-content: center;
+        margin-top: 5px;
+      }
+      
       .category-card-container lightning-layout.slds-grid img {
         border-bottom-left-radius: 0 !important;
         border-top-left-radius: 0 !important;
