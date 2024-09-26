@@ -447,7 +447,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       }
       
       .learning-tools-card-container .atc-btn-con {
-        justify-content: center;
+        justify-content: right;
         margin-top: 5px;
       }
       
