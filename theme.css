@@ -24,11 +24,6 @@
   border: none !important;
 }
 
-.ppd-table table tr td, .ppd-table table tr td {
-  text-align: left;
-  justify-content: left;
-}
-
 @media only screen and (max-width: 48em) {
 .ppd-table commerce-product-pricing-details table tr td, 
 .ppd-table commerce-product-pricing-details table tr td {
