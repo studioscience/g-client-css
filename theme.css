@@ -12,13 +12,13 @@
   --dxp-s-text-heading-medium-font-family: 'aktiv-grotesk', sans-serif;
 }
 
-.mobile-menu-btn button.slds-button.slds-button_icon.slds-button_icon-bare {
+.mobile-menu-btn button {
     outline: none;
     border: none;
 }
 
-.mobile-menu-btn button.slds-button.slds-button_icon.slds-button_icon-bare:focus,
-.mobile-menu-btn button.slds-button.slds-button_icon.slds-button_icon-bare:active {
+.mobile-menu-btn button:focus,
+.mobile-menu-btn button:active {
     outline: none;
     border: none;
 }
