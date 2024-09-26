@@ -12,16 +12,6 @@
   --dxp-s-text-heading-medium-font-family: 'aktiv-grotesk', sans-serif;
 }
 
-.learning-tools-card-container .qty-container,
-.learning-tools-card-container .atc-container {
-  width: 100%
-}
-
-.learning-tools-card-container .atc-btn-con {
-  justify-content: center;
-  margin-top: 5px;
-}
-
 .mobile-menu-btn button {
   outline: none !important;
   box-shadow: none !important;
@@ -395,6 +385,16 @@ commerce_builder-link-list.utility-header div[slot='header']{
         height: 40px !important;
         position: absolute !important;
       } */
+
+      .learning-tools-card-container .qty-container,
+      .learning-tools-card-container .atc-container {
+        width: 100%
+      }
+      
+      .learning-tools-card-container .atc-btn-con {
+        justify-content: center;
+        margin-top: 5px;
+      }
       
       .footer-links-columns {
         border-right: solid 1px #000;
