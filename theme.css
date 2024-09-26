@@ -453,7 +453,8 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
       .learning-tools-card-container .qty-container,
       .learning-tools-card-container .atc-container {
-        width: 100%
+        width: 100%;
+        margin-left: -5px;
       }
       
       .learning-tools-card-container .atc-btn-con {
