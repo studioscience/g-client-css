@@ -356,6 +356,12 @@ commerce_builder-link-list.utility-header div[slot='header']{
     }
 
     @media (max-width: 480px) {
+
+      .learning-tools-card-container .atc-btn-con {
+        justify-content: center;
+        margin-top: 5px;
+      }
+      
       div[name='header'] commerce_my_account-user-profile-menu lightning-icon lightning-primitive-icon svg, div[name='header'] commerce_cart-badge svg {
         height: 1.5rem;
         width: 1.5rem;
@@ -447,7 +453,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
       }
       
       .learning-tools-card-container .atc-btn-con {
-        justify-content: right;
+        justify-content: center;
         margin-top: 5px;
       }
       
