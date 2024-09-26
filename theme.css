@@ -24,6 +24,11 @@
   border: none !important;
 }
 
+.ppd-table td, .ppd-table td {
+  text-align: left;
+  justify-content: left;
+}
+
 .theme-link h4 {
   color: #009D4F;
 }
