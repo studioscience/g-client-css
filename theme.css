@@ -13,14 +13,15 @@
 }
 
 .mobile-menu-btn button {
-    outline: none !important;
-    border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
 }
 
-.mobile-menu-btn button:focus,
-.mobile-menu-btn button:active {
-    outline: none !important;
-    border: none !important;
+.mobile-menu-btn button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
 }
 
 .theme-link h4 {
