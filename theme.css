@@ -697,10 +697,15 @@ commerce_builder-link-list.utility-header div[slot='header']{
           color: #009D4F;
       }
       
-      .product-grid .slds-grid.slds-wrap {
+/*       .product-grid .slds-grid.slds-wrap {
         width: 100vw;
         overflow: scroll;
         flex-wrap: nowrap;
+      } */
+
+      .product-grid .slds-grid.slds-wrap {
+        width: 100%;
+        overflow: hidden;
       }
 
       /*Quantity Selector column*/
