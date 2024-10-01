@@ -402,8 +402,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
       
       .footer-links-columns {
         border-right: solid 1px #000;
-        padding-right: 48px;
-        margin-right: 48px;
       }
 
       .footer-section-columns div.columns-content community_layout-column:last-child{
