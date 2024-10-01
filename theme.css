@@ -28,6 +28,10 @@
   color: #000;
 }
 
+.my-account-nav-links a,a:link:not(.slds-button, .slds-dropdown__item > a),a:visited:not(.slds-button, .slds-dropdown__item > a) {
+    color: #0a0f0c;
+}
+
 @media only screen and (max-width: 48em) {
 .ppd-table commerce-product-pricing-details table tr td, 
 .ppd-table commerce-product-pricing-details table tr td {
