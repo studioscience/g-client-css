@@ -24,6 +24,10 @@
   border: none !important;
 }
 
+.my-account-nav-links a {
+  color: #000;
+}
+
 @media only screen and (max-width: 48em) {
 .ppd-table commerce-product-pricing-details table tr td, 
 .ppd-table commerce-product-pricing-details table tr td {
