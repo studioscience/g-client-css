@@ -24,7 +24,7 @@
   border: none !important;
 }
 
-.my-account-nav-links a {
+.my-account-nav-links .slds-dropdown__item > a {
   color: #000;
 }
 
