@@ -1386,10 +1386,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
   }
 }
 
-@media only screen and (min-width: 1023px) {
-  .multi-nav-menu nav ul li:last-child {
-    display: none !important;
-  }
-}
+
 
 
