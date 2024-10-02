@@ -1384,9 +1384,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
     display: flex;
     justify-content: left;
   }
-  .tax-info-container p {
-    font-size: 12px;
-  }
 }
 
 @media only screen and (min-width: 1023px) {
