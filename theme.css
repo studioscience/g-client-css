@@ -32,15 +32,6 @@
     color: #0a0f0c;
 }
 
-@media only screen and (max-width: 48em) {
-.ppd-table commerce-product-pricing-details table tr td, 
-.ppd-table commerce-product-pricing-details table tr td {
-        width: 100%;
-        display: flex;
-        justify-content: left;
-    }
-}
-
 .theme-link h4 {
   color: #009D4F;
 }
@@ -1386,8 +1377,16 @@ commerce_builder-link-list.utility-header div[slot='header']{
       line-height: 46.5px; 
     }
 
-.tax-info-container p {
-  font-size: 12px;
+@media only screen and (max-width: 48em) {
+  .ppd-table commerce-product-pricing-details table tr td,
+  .ppd-table commerce-product-pricing-details table tr td {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+  }
+  .tax-info-container p {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (min-width: 1023px) {
@@ -1395,4 +1394,5 @@ commerce_builder-link-list.utility-header div[slot='header']{
     display: none !important;
   }
 }
+
 
