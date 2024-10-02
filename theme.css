@@ -1314,7 +1314,7 @@ commerce_builder-link-list.utility-header div[slot='header']{
 
   .section-bottom-border {
     border-bottom: 1px solid #E0E0E0;
-    padding-bottom: 24px;
+    padding: 24px;
   }
 
   .btn_edit-cancel {
