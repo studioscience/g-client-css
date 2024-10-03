@@ -394,10 +394,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
         height: 40px !important;
         position: absolute !important;
       } */
-      
-      .footer-links-columns {
-        border-right: solid 1px #000;
-      }
 
       .footer-section-columns div.columns-content community_layout-column:last-child{
         display: flex;
@@ -1393,6 +1389,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
 @media only screen and (min-width: 1023px) {
   .multi-nav-menu nav ul li:last-child {
     display: none !important;
+  }
+
+  .footer-links-columns {
+    border-right: solid 1px #000;
   }
 }
 
