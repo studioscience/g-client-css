@@ -12,6 +12,10 @@
   --dxp-s-text-heading-medium-font-family: 'aktiv-grotesk', sans-serif;
 }
 
+  .footer-links-columns {
+    border-right: none;
+  }
+
 .mobile-menu-btn button {
   outline: none !important;
   box-shadow: none !important;
@@ -1383,10 +1387,6 @@ commerce_builder-link-list.utility-header div[slot='header']{
     width: 100%;
     display: flex;
     justify-content: left;
-  }
-
-  .footer-links-columns {
-    border-right: none;
   }
 }
 
