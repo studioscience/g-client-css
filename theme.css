@@ -1384,6 +1384,10 @@ commerce_builder-link-list.utility-header div[slot='header']{
     display: flex;
     justify-content: left;
   }
+
+  .footer-links-columns {
+    border-right: none;
+  }
 }
 
 @media only screen and (min-width: 1023px) {
